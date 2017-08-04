@@ -1,4 +1,4 @@
-<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce"></project>
 
 	<property file="build.properties"/>
 	<property environment="env"/>
