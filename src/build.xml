@@ -1,0 +1,51 @@
+<project name="Test-Git" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
+
+<taskdef resource="com/salesforce/antlib.xml" classPath="${ant.library.dir}/ant-salesforce.jar" uri="antlib:com.salesforce"/>
+
+  <property name="build.properties" value="build.properties" />
+  <property file="${build.properties}" />
+  <property environment="env" />
+
+  <target name="validate">
+    <property name="sf.allowMissingFiles" value="false" />
+    <property name="sf.ignoreWarnings" value="false" />
+  	<property name="sf.runAllTests" value="false" />
+  	<property name="sf.deployRoot" value="./src" />
+    <sf:deploy username="${sf.username}" 
+	       password="${sf.password}" 
+	       serverurl="${sf.serverUrl}" 
+	       deployRoot="${sf.deployRoot}"
+	       pollWaitMillis="10000"
+	       maxPoll="500"
+	       allowMissingFiles="${sf.allowMissingFiles}"
+	       ignoreWarnings="${sf.ignoreWarnings}"
+		   testLevel="${sf.testLevel}"
+	       checkOnly="true"
+		   />
+  </target>
+  
+  <target name="build">
+    <property name="sf.trace" value="false" />
+  	<property name="sf.runAllTests" value="false" />
+  	<property name="sf.deployRoot" value="./src" />
+    <sf:deploy username="${sf.username}" 
+	       password="${sf.password}" 
+	       serverurl="${sf.serverUrl}" 
+	       deployRoot="${sf.deployRoot}"
+	       pollWaitMillis="10000" 
+	       trace="${sf.trace}" 
+	       maxPoll="500"  
+	       logType="Debugonly"
+    	   testLevel="${sf.testLevel}"
+    	   rollbackOnError="${sf.rollbackOnError}"
+	       checkOnly="false"/>
+  </target>
+  
+  <target name="retrieve">
+    <sf:retrieve username="${sf.username}" 
+		 password="${sf.password}" 
+		 serverurl="${sf.serverUrl}" 
+		 retrieveTarget="${sf.retrieveTarget}" 
+		 unpackaged="${sf.unpackaged}" />
+  </target>
+</project>
