@@ -1,0 +1,90 @@
+<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce">
+
+	<property file="build.properties"/>
+	<property environment="env"/>
+
+	<taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
+		<classpath>
+			<pathelement location="../ant-salesforce.jar" />
+		</classpath>
+	</taskdef>
+
+
+	<target name="validate">
+		<sf:deploy 
+			username="${sf.productionUsername}" 
+			password="${sf.productionPassword}" 
+			serverurl="${sf.productionURL}" 
+			checkonly="true" 
+			testLevel="RunLocalTests" 
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			deployRoot="src"/>
+	</target>
+
+	
+	<target name="validate_acumenfull">
+		<sf:deploy 
+			username="${sf.acumenfullUsername}" 
+			password="${sf.acumenfullPassword}" 
+			serverurl="${sf.sandboxURL}" 
+			checkonly="true" 
+			testLevel="RunLocalTests" 
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			deployRoot="src"/>
+	</target>
+
+	
+
+	<target name="validate_cledev">
+		<sf:deploy 
+			username="${sf.cledevUsername}" 
+			password="${sf.cledevPassword}" 
+			serverurl="${sf.sandboxURL}" 
+			checkonly="true" 
+			testLevel="RunLocalTests" 
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			deployRoot="src"/>
+	</target>
+	</target>
+
+	<target name="validate">
+		<sf:deploy 
+			username="${sf.username}" 
+			password="${sf.password}" 
+			serverurl="${sf.sandboxURL}"  
+			checkonly="true" 
+			testLevel="RunLocalTests"
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			deployRoot="src"/>
+	</target>
+
+	<target name="deploy">
+		<sf:deploy 
+			username="${sf.username}" 
+			password="${sf.password}" 
+			serverurl="${sf.sandboxURL}"
+			checkonly="false" 
+			testLevel="${sf.testLevel}"
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			deployRoot="src"/>
+	</target>
+
+	<target name="undeploy">
+		<property name="sf.ignoreWarnings" value="true" />
+		<property name="sf.deployRoot" value="./undeployPkg" />
+		<sf:deploy
+			username="${sf.acumenfullUsername}" 
+			password="${sf.acumenfullPassword}" 
+			serverurl="${sf.sandboxURL}" 
+			deployRoot="${sf.deployRoot}"
+			maxPoll="${sf.maxPoll}" 
+			pollWaitMillis="${sf.maxWaitMillis}"
+			logType="Debugonly"/>
+	</target>
+
+</project>
