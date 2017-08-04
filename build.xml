@@ -1,4 +1,4 @@
-<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce"></project>
+<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce">
 
 	<property file="build.properties"/>
 	<property environment="env"/>
@@ -48,7 +48,6 @@
 			pollWaitMillis="${sf.maxWaitMillis}"
 			deployRoot="src"/>
 	</target>
-	</target>
 
 	<target name="validate">
 		<sf:deploy 
@@ -86,5 +85,4 @@
 			pollWaitMillis="${sf.maxWaitMillis}"
 			logType="Debugonly"/>
 	</target>
-
 </project>
