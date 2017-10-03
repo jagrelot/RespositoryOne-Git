@@ -1,23 +1,26 @@
-<project name="Git-Test" default="DevOpsBuild" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Schoolforce" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
 
-	<property file="build.properties"/>
-	<property environment="env"/>
+<taskdef resource="com/salesforce/antlib.xml" classPath="${ant.library.dir}/ant-salesforce.jar" uri="antlib:com.salesforce"/>
 
-	<taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
-		<classpath>
-			<pathelement location="../ant-salesforce.jar" />
-		</classpath>
-	</taskdef>
-	<target name="validate">
-		<sf:deploy 
-			username="${sf.productionUsername}" 
-			password="${sf.productionPassword}" 
-			serverurl="${sf.productionURL}" 
-			checkonly="true" 
-			testLevel="RunLocalTests" 
-			maxPoll="${sf.maxPoll}" 
-			pollWaitMillis="${sf.maxWaitMillis}"
-			deployRoot="src"/>
-	</target>
+  <property name="build.properties" value="build.properties" />
+  <property file="${build.properties}" />
+  <property environment="env" />
 
+  <target name="validate">
+    <property name="sf.allowMissingFiles" value="false" />
+    <property name="sf.ignoreWarnings" value="false" />
+  	<property name="sf.runAllTests" value="false" />
+  	<property name="sf.deployRoot" value="./src" />
+    <sf:deploy username="${sf.username}" 
+	       password="${sf.password}" 
+	       serverurl="${sf.serverUrl}" 
+	       deployRoot="${sf.deployRoot}"
+	       pollWaitMillis="10000"
+	       maxPoll="500"
+	       allowMissingFiles="${sf.allowMissingFiles}"
+	       ignoreWarnings="${sf.ignoreWarnings}"
+		   testLevel="${sf.testLevel}"
+	       checkOnly="true"
+		   />
+  </target>
 </project>
