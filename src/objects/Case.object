@@ -211,6 +211,16 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>TestDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Purchase Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>ProductTotalWarrantyDays__c</fullName>
         <externalId>false</externalId>
         <label>Product Total Warranty Days</label>
