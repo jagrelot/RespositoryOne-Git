@@ -23,4 +23,30 @@
 	       checkOnly="true"
 		   />
   </target>
+  
+  <target name="build">
+    <property name="sf.trace" value="false" />
+  	<property name="sf.runAllTests" value="false" />
+  	<property name="sf.deployRoot" value="./src" />
+    <sf:deploy username="${sf.username}" 
+	       password="${sf.password}" 
+	       serverurl="${sf.serverUrl}" 
+	       deployRoot="${sf.deployRoot}"
+	       pollWaitMillis="10000" 
+	       trace="${sf.trace}" 
+	       maxPoll="500"  
+	       logType="Debugonly"
+    	   testLevel="${sf.testLevel}"
+    	   rollbackOnError="${sf.rollbackOnError}"
+	       checkOnly="false"/>
+  </target>
+  
+  <target name="retrieve">
+    <sf:retrieve username="${sf.username}" 
+		 password="${sf.password}" 
+		 serverurl="${sf.serverUrl}" 
+		 retrieveTarget="${sf.retrieveTarget}" 
+		 unpackaged="${sf.unpackaged}" />
+  </target>
 </project>
+
