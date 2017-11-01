@@ -1,106 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>Add</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
-    <fields>
+    </actionOverrides><fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>DisplayUrl</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ExternalDataSourceId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ExternalId</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Family</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>None</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>IsActive</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ProductCode</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>QuantityUnitOfMeasure</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Each</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
+    </fields><fields>
+        <fullName>Family</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
-    </fields>
-    <listViews>
-        <fullName>AllProducts</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Products</label>
-    </listViews>
-    <searchLayouts>
+    </fields><fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
         <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
@@ -116,5 +71,8 @@
         <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
-    </searchLayouts>
-</CustomObject>
+    </searchLayouts><listViews>
+        <fullName>AllProducts</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Products</label>
+    </listViews></CustomObject>

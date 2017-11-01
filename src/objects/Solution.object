@@ -1,107 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>New</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>SelfServSelect</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
-    <fields>
+    </actionOverrides><fields>
         <fullName>IsPublished</fullName>
         <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>IsPublishedInPublicKb</fullName>
         <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SolutionName</fullName>
         <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SolutionNote</fullName>
         <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Status</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Draft</fullName>
-                <default>true</default>
-                <reviewed>false</reviewed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Reviewed</fullName>
-                <default>false</default>
-                <reviewed>true</reviewed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Duplicate</fullName>
-                <default>false</default>
-                <reviewed>false</reviewed>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackHistory>true</trackHistory>
+        
         <type>Picklist</type>
-    </fields>
-    <listViews>
-        <fullName>AllReviewedSolutions</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>SOLUTION.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>All Reviewed Solutions</label>
-    </listViews>
-    <listViews>
-        <fullName>AllUnreviewedSolutions</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>SOLUTION.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
-        <label>All Unreviewed Solutions</label>
-    </listViews>
-    <searchLayouts>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
         <customTabListAdditionalFields>SOLUTION.ISSUE</customTabListAdditionalFields>
         <customTabListAdditionalFields>SOLUTION.SOLUTION_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>SOLUTION.STATUS</customTabListAdditionalFields>
@@ -116,5 +56,22 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.TIMES_USED</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.LAST_UPDATE</searchResultsAdditionalFields>
-    </searchLayouts>
-</CustomObject>
+    </searchLayouts><listViews>
+        <fullName>AllReviewedSolutions</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SOLUTION.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Reviewed Solutions</label>
+    </listViews><listViews>
+        <fullName>AllUnreviewedSolutions</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SOLUTION.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Unreviewed Solutions</label>
+    </listViews></CustomObject>

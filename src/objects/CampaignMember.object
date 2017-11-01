@@ -1,203 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>AddCampaign</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>ConvertLead</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Create_Opportunity</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
-    <fields>
+    </actionOverrides><fields>
         <fullName>CampaignId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>City</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>CompanyOrAccount</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Country</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Description</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>DoNotCall</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Email</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Fax</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>FirstName</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>FirstRespondedDate</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>HasOptedOutOfEmail</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>HasOptedOutOfFax</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>HasResponded</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>LastName</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>LeadId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>LeadSource</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Advertisement</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Employee Referral</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>External Referral</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Partner</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Public Relations</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Seminar - Internal</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Seminar - Partner</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Trade Show</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Word of mouth</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>MobilePhone</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Phone</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>PostalCode</fullName>
-    </fields>
-    <fields>
-        <fullName>Salutation</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Mr.</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Ms.</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Mrs.</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Dr.</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Prof.</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>State</fullName>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Responded</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Sent</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>true</sorted>
-        </picklist>
-        <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Street</fullName>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Title</fullName>
-    </fields>
-</CustomObject>
+    </fields><fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds></CustomObject>
