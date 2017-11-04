@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
@@ -28,19 +28,10 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
     </actionOverrides><fields>
-        <fullName>Contact__c</fullName>
-        <externalId>false</externalId>
-        <label>Contact</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Form Assignments</relationshipLabel>
-        <relationshipName>Form_Assignments</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields><fields>
         <fullName>Form__c</fullName>
         <externalId>false</externalId>
         <label>Form</label>
@@ -52,11 +43,23 @@
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Form Assignment</label><nameField>
+    </fields><fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Form Assignments</relationshipLabel>
+        <relationshipName>Form_Assignments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Form Assignment</label><nameField>
         <displayFormat>FA-{00000}</displayFormat>
         <label>Form Assignment Name</label>
         <type>AutoNumber</type>
-    </nameField><pluralLabel>Form Assignments</pluralLabel><searchLayouts /><sharingModel>ControlledByParent</sharingModel><visibility>Public</visibility><listViews>
+    </nameField><pluralLabel>Form Assignments</pluralLabel><searchLayouts /><sharingModel>ControlledByParent</sharingModel><listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
