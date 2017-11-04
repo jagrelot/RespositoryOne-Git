@@ -38,7 +38,7 @@
         <actionName>UserActivationAction</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
-        <actionName>Follow</actionName>
+        <actionName>SmsHighlightAction</actionName>
         <type>Default</type>
     </actionOverrides><fields>
         <fullName>ManagerId</fullName>
