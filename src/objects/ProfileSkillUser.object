@@ -34,6 +34,9 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
     </actionOverrides><fields>
         <fullName>EndorsementCount</fullName>
         <trackHistory>false</trackHistory>
