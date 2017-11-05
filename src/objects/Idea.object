@@ -12,9 +12,15 @@
         <type>Default</type>
     </actionOverrides><fields>
         <fullName>Categories</fullName>
+        <picklist>
+            <sorted>false</sorted>
+        </picklist>
         <type>Picklist</type>
     </fields><fields>
         <fullName>Status</fullName>
+        <picklist>
+            <sorted>false</sorted>
+        </picklist>
         <type>Picklist</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
         <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
