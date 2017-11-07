@@ -43,6 +43,9 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
     </actionOverrides><fields>
         <fullName>AnalyzerScore</fullName>
     </fields><fields>
@@ -156,12 +159,57 @@
         <type>Lookup</type>
     </fields><fields>
         <fullName>Classification</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Product Review</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Outreach</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Case</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
         <type>Picklist</type>
     </fields><fields>
         <fullName>EngagementLevel</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reviewed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Commented</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
         <type>Picklist</type>
     </fields><fields>
         <fullName>ReviewedStatus</fullName>
+        <picklist>
+            <sorted>false</sorted>
+        </picklist>
         <type>Picklist</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><searchLayouts>
         <customTabListAdditionalFields>Persona</customTabListAdditionalFields>
