@@ -25,6 +25,9 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
     </actionOverrides><fields>
         <fullName>IsPublished</fullName>
         <trackHistory>true</trackHistory>
@@ -39,6 +42,24 @@
         <trackHistory>true</trackHistory>
     </fields><fields>
         <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <reviewed>false</reviewed>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reviewed</fullName>
+                <default>false</default>
+                <reviewed>true</reviewed>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <reviewed>false</reviewed>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
         
         <type>Picklist</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
