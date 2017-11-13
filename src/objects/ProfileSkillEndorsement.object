@@ -25,9 +25,6 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
     </actionOverrides><fields>
         <fullName>UserId</fullName>
         <trackHistory>false</trackHistory>
