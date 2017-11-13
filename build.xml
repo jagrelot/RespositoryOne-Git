@@ -1,6 +1,6 @@
 <project name="Schoolforce" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
 
-<taskdef resource="com/salesforce/antlib.xml" classPath="ant-salesforce.jar" uri="antlib:com.salesforce"/>
+<taskdef resource="com/salesforce/antlib.xml" classPath="${ant.library.dir}/ant-salesforce.jar" uri="antlib:com.salesforce"/>
 
   <property name="build.properties" value="build.properties" />
   <property file="${build.properties}" />
