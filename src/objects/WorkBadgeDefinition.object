@@ -1,61 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>New</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>NewBadgeDefinition</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>GivenBadgeCount</fullName>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>ImageUrl</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>IsActive</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>IsCompanyWide</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>IsLimitPerUser</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>LimitNumber</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>LimitStartDate</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
-    </fields><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </fields><fields>
         <fullName>RewardFundId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

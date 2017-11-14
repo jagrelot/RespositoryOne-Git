@@ -25,7 +25,10 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><fields xmlns="http://soap.sforce.com/2006/04/metadata">
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
         <fullName>FromDate</fullName>
         <trackHistory>false</trackHistory>
     </fields><fields>
@@ -37,6 +40,21 @@
         <trackHistory>false</trackHistory>
     </fields><fields>
         <fullName>RelationshipType</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Replacement</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Crossgrade</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields><fields>
