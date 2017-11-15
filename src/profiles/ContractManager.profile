@@ -1402,6 +1402,16 @@
         <layout>WorkRewardFundType-Reward Fund Type Layout</layout>
     </layoutAssignments><layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>FormAssignment__c-Form Assignment Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>Form__c-Form Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments><objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1662,5 +1672,14 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>standard-WorkOrder</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>FormAssignment__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>Form__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities></Profile>

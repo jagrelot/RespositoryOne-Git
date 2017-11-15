@@ -4,6 +4,7 @@
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
     <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
     <enableKeyboardShortcuts>true</enableKeyboardShortcuts>
+    <enableListViewHover>true</enableListViewHover>
     <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
     <enablePinTabs>true</enablePinTabs>
@@ -173,11 +174,18 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
-    <tab>standard-LiveAgent</tab>
     <tab>Application__c</tab>
+    <tab>Form__c</tab>
+    <tab>FormAssignment__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>Application__c</tab>
+        </mapping>
+        <mapping>
+            <tab>FormAssignment__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Form__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>
@@ -195,9 +203,6 @@
         </mapping>
         <mapping>
             <tab>standard-Lead</tab>
-        </mapping>
-        <mapping>
-            <tab>standard-LiveAgent</tab>
         </mapping>
         <mapping>
             <fieldName>AccountId</fieldName>

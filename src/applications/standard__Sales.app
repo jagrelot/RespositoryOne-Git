@@ -14,4 +14,7 @@
     <tab>standard-Product2</tab>
     <tab>standard-Forecasting3</tab>
     <tab>Application__c</tab>
+    <tab>Form__c</tab>
+    <tab>FormAssignment__c</tab>
+    <uiType>Aloha</uiType>
 </CustomApplication>
