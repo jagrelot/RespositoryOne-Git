@@ -221,6 +221,20 @@
     <name>Workflow</name>
   </types>
   <types>
+    <members>Account.Standard_Account_duplicate_rule</members>
+    <members>Contact.Standard_Contact_duplicate_rule</members>
+    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+    <members>Lead.Standard_Lead_duplicate_rule</members>
+    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
+    <name>DuplicateRule</name>
+  </types>
+  <types>
+    <members>DataCloudCompanyMatch</members>
+    <members>DataCloudGeoLocation</members>
+    <members>DataCloudLeadAppend</members>
+    <name>CleanDataService</name>
+  </types>
+  <types>
     <members>*</members>
     <name>ActionLinkGroupTemplate</name>
   </types>
@@ -447,20 +461,6 @@
   <types>
     <members>*</members>
     <name>Settings</name>
-  </types>
-  <types>
-    <members>Account.Standard_Account_duplicate_rule</members>
-    <members>Contact.Standard_Contact_duplicate_rule</members>
-    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
-    <members>Lead.Standard_Lead_duplicate_rule</members>
-    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
-    <name>DuplicateRule</name>
-  </types>
-  <types>
-    <members>DataCloudCompanyMatch</members>
-    <members>DataCloudGeoLocation</members>
-    <members>DataCloudLeadAppend</members>
-    <name>CleanDataService</name>
   </types>
   <version>36.0</version>
 </Package>
