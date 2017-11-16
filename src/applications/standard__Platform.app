@@ -12,5 +12,4 @@
     <tab>Application__c</tab>
     <tab>Form__c</tab>
     <tab>FormAssignment__c</tab>
-    <uiType>Aloha</uiType>
 </CustomApplication>
