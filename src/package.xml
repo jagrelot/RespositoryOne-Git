@@ -73,6 +73,7 @@
     <members>WorkThanks</members>
     <members>Form__c</members>
     <members>FormAssignment__c</members>
+    <members>Web_Services_Utility__c</members>
     <name>CustomObject</name>
   </types>
   <types>
