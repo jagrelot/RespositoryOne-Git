@@ -40,9 +40,6 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
     </actionOverrides><fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -130,9 +127,6 @@
         <fullName>TotalAmount</fullName>
     </fields><fields>
         <fullName>Type</fullName>
-        <picklist>
-            <sorted>false</sorted>
-        </picklist>
         
         <type>Picklist</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
