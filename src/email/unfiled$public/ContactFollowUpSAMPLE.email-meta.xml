@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>Following up on our discussion today</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>
