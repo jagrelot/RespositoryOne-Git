@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>New lead assigned to you:  {!Lead.Name} from {!Lead.Company}</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>
