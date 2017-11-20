@@ -28,6 +28,9 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
     </actionOverrides><fields>
         <fullName>Customer_Name__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
@@ -64,31 +67,27 @@
         <fullName>FileNumberType__c</fullName>
         <externalId>false</externalId>
         <label>File Number Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Alien_Number</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Receipt Number</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Alien_Number</fullName>
-                    <default>false</default>
-                    <label>Alien Number</label>
-                </value>
-                <value>
-                    <fullName>Receipt Number</fullName>
-                    <default>false</default>
-                    <label>Receipt Number</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields><allowInChatterGroups>true</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Application</label><nameField>
+    </fields><allowInChatterGroups>true</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Application</label><nameField>
         <label>Application Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
-    </nameField><pluralLabel>Applications</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts /><sharingModel>ReadWrite</sharingModel><visibility>Public</visibility><listViews>
+    </nameField><pluralLabel>Applications</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts /><sharingModel>ReadWrite</sharingModel><listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
@@ -99,7 +98,7 @@
         <picklistValues>
             <picklist>FileNumberType__c</picklist>
             <values>
-                <fullName>Alien_Number</fullName>
+                <fullName>Alien Number</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -114,7 +113,7 @@
         <picklistValues>
             <picklist>FileNumberType__c</picklist>
             <values>
-                <fullName>Alien_Number</fullName>
+                <fullName>Alien Number</fullName>
                 <default>false</default>
             </values>
             <values>
