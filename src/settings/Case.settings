@@ -24,6 +24,7 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>jagrelot@outlook.com</emailAddress>
+            <isVerified>true</isVerified>
             <routingName>Jose Agrelot</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
         </routingAddresses>
@@ -40,7 +41,10 @@
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
+    <systemUserEmail>automatedcase@00df40000003g7zeau.ext</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
         <enableWebToCase>false</enableWebToCase>
     </webToCase>
