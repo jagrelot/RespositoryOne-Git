@@ -18,6 +18,10 @@
             <start>24.29.205.254</start>
         </ipRanges>
         <ipRanges>
+            <end>18.221.59.253</end>
+            <start>18.221.59.253</start>
+        </ipRanges>
+        <ipRanges>
             <description>Linux EC2 Instance</description>
             <end>18.220.141.191</end>
             <start>18.220.141.191</start>
