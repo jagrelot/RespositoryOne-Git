@@ -7,5 +7,4 @@
     <style>none</style>
     <subject>{!Organization.Name} Case # {!Case.CaseNumber}:  {!Case.Subject}</subject>
     <type>text</type>
-    <uiType>Aloha</uiType>
 </EmailTemplate>
