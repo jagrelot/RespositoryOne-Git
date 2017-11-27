@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <caseValues>
-        <plural>false</plural>
-        <value>Application</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Applications</value>
-    </caseValues>
-    <fields>
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
         <label><!-- Account --></label>
         <name>Customer_Name__c</name>
         <relationshipLabel><!-- Applications --></relationshipLabel>
-    </fields>
-    <fields>
+    </fields><fields>
         <label><!-- File Number Type --></label>
         <name>FileNumberType__c</name>
         <picklistValues>
@@ -24,26 +13,25 @@
             <masterLabel>Receipt Number</masterLabel>
             <translation><!-- Receipt Number --></translation>
         </picklistValues>
-    </fields>
-    <fields>
+    </fields><fields>
         <label><!-- File Number --></label>
         <name>FileNumber__c</name>
-    </fields>
-    <fields>
+    </fields><fields>
         <label><!-- Receipt Number --></label>
         <name>ReceiptNumber__c</name>
-    </fields>
-    <recordTypes>
+    </fields><layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><recordTypes>
         <label><!-- I-130 --></label>
         <name>I_130</name>
-    </recordTypes>
-    <recordTypes>
+    </recordTypes><recordTypes>
         <label><!-- I-290B --></label>
         <name>I_290B</name>
-    </recordTypes>
-    <startsWith>Consonant</startsWith>
-    <webLinks>
+    </recordTypes><webLinks>
         <label><!-- New_Application --></label>
         <name>New_Application</name>
-    </webLinks>
-</CustomObjectTranslation>
+    </webLinks></CustomObjectTranslation>
