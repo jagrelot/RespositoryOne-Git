@@ -19,7 +19,13 @@
     </fields><fields>
         <label><!-- Receipt Number --></label>
         <name>ReceiptNumber__c</name>
-    </fields><layouts>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
         <layout>Application Layout</layout>
         <sections>
             <label><!-- Custom Links --></label>
