@@ -48,4 +48,18 @@
 		 retrieveTarget="${sf.retrieveTarget}" 
 		 unpackaged="${sf.unpackaged}" />
   </target>
+
+  <target name="remove">
+    <property name="sf.trace" value="false" />
+  	<property name="sf.runAllTests" value="false" />
+  	<property name="sf.deployRoot" value="./src" />
+    <sf:deploy username="${sf.username}" 
+	       password="${sf.password}" 
+	       serverurl="${sf.serverUrl}" 
+	       deployRoot="${sf.deployRoot}"
+	       maxPoll="500"  
+    	   rollbackOnError="${sf.rollbackOnError}"
+	       checkOnly="true"/>
+  </target>
+
 </project>
