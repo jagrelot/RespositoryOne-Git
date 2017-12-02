@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
+ <!--  <types>
     <members>Case</members>
     <members>Lead</members>
     <name>AssignmentRules</name>
@@ -462,6 +462,6 @@
   <types>
     <members>*</members>
     <name>Settings</name>
-  </types>
+  </types> -->
   <version>36.0</version>
 </Package>
