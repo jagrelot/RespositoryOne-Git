@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
+ <types>
     <members>Case</members>
     <members>Lead</members>
     <name>AssignmentRules</name>
@@ -33,11 +33,11 @@
     <members>ContractContactRole</members>
     <members>DuplicateRecordItem</members>
     <members>DuplicateRecordSet</members>
-    <members>EmailMessage</members>
+    <!-- <members>EmailMessage</members> -->
     <members>Event</members>
     <members>ExchangeUserMapping</members>
     <members>FeedItem</members>
-    <members>ForecastingCategoryMapping</members>
+<!--     <members>ForecastingCategoryMapping</members> -->
     <members>Idea</members>
     <members>Lead</members>
     <members>Macro</members>
@@ -76,7 +76,7 @@
     <members>Web_Services_Utility__c</members>
     <name>CustomObject</name>
   </types>
-  <types>
+ <!--  <types>
     <members>CompanyDashboards</members>
     <members>CompanyDashboards/AdoptionDashboard</members>
     <members>CompanyDashboards/CompanyPerformanceDashboard</members>
@@ -144,7 +144,7 @@
     <members>unfiled$public/SampleReportofTasksandActivities</members>
     <members>unfiled$public/SampleReportsLeadsbyStatus</members>
     <name>Report</name>
-  </types>
+  </types> -->
   <types>
     <members>Account</members>
     <members>ApplicationAssociation__c</members>
@@ -185,7 +185,7 @@
     <members>Contract</members>
     <members>DuplicateRecordItem</members>
     <members>DuplicateRecordSet</members>
-    <members>EmailMessage</members>
+<!--     <members>EmailMessage</members> -->
     <members>Event</members>
     <members>ExchangeUserMapping</members>
     <members>FeedItem</members>
@@ -221,20 +221,20 @@
     <members>WorkThanks</members>
     <name>Workflow</name>
   </types>
-  <types>
+<!--   <types>
     <members>Account.Standard_Account_duplicate_rule</members>
     <members>Contact.Standard_Contact_duplicate_rule</members>
     <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
     <members>Lead.Standard_Lead_duplicate_rule</members>
     <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
     <name>DuplicateRule</name>
-  </types>
-  <types>
+  </types> -->
+<!--   <types>
     <members>DataCloudCompanyMatch</members>
     <members>DataCloudGeoLocation</members>
     <members>DataCloudLeadAppend</members>
     <name>CleanDataService</name>
-  </types>
+  </types> -->
   <types>
     <members>*</members>
     <name>ActionLinkGroupTemplate</name>
@@ -299,10 +299,10 @@
     <members>*</members>
     <name>CorsWhitelistOrigin</name>
   </types>
-  <types>
+<!--   <types>
     <members>*</members>
     <name>CustomApplication</name>
-  </types>
+  </types> -->
   <types>
     <members>*</members>
     <name>CustomApplicationComponent</name>
@@ -347,18 +347,18 @@
     <members>*</members>
     <name>ExternalDataSource</name>
   </types>
-  <types>
+<!--   <types>
     <members>*</members>
     <name>FlexiPage</name>
-  </types>
-  <types>
+  </types> -->
+  <!-- <types>
     <members>*</members>
     <name>Flow</name>
   </types>
   <types>
     <members>*</members>
     <name>FlowDefinition</name>
-  </types>
+  </types> -->
   <types>
     <members>*</members>
     <name>GlobalPicklist</name>
@@ -391,10 +391,10 @@
     <members>*</members>
     <name>Letterhead</name>
   </types>
-  <types>
+<!--   <types>
     <members>*</members>
     <name>NamedCredential</name>
-  </types>
+  </types> -->
   <types>
     <members>*</members>
     <name>PathAssistant</name>
@@ -419,18 +419,18 @@
     <members>*</members>
     <name>Queue</name>
   </types>
-  <types>
+<!--   <types>
     <members>*</members>
     <name>QuickAction</name>
   </types>
-  <types>
+ -->  <types>
     <members>*</members>
     <name>RemoteSiteSetting</name>
   </types>
-  <types>
+<!--   <types>
     <members>*</members>
     <name>ReportType</name>
-  </types>
+  </types> -->
   <types>
     <members>*</members>
     <name>Role</name>
