@@ -40,11 +40,11 @@
         <application>standard__Community</application>
         <default>false</default>
         <visible>true</visible>
-    </applicationVisibilities><applicationVisibilities>
+    </applicationVisibilities><!-- <applicationVisibilities>
         <application>standard__Content</application>
         <default>false</default>
         <visible>true</visible>
-    </applicationVisibilities><applicationVisibilities>
+    </applicationVisibilities> --><applicationVisibilities>
         <application>standard__DataAssessment</application>
         <default>false</default>
         <visible>true</visible>
