@@ -2,8 +2,6 @@
   <types>
     <members>AccountManualDeDupeTest</members>
     <members>checkbox</members>
-    <members>ClassToDeleteOne</members>
-    <members>ClassToDeleteTwo</members>
     <members>DataLoadScript</members>
     <members>FlowFinishLocation</members>
     <members>FlowFinishLocationTest</members>
@@ -27,12 +25,9 @@
     <name>ApexTrigger</name>
   </types>
   <types>
-    <members>AppSwitcher</members>
-    <members>Salesforce1</members>
     <name>AppMenu</name>
   </types>
   <types>
-    <members>Case.Case_Test</members>
     <name>ApprovalProcess</name>
   </types>
   <types>
@@ -56,8 +51,6 @@
     <name>Community</name>
   </types>
   <types>
-    <members>Console360</members>
-    <members>Lightning_Console_Example</members>
     <members>standard__AppLauncher</members>
     <members>standard__Chatter</members>
     <members>standard__Community</members>
@@ -74,33 +67,7 @@
     <name>CustomApplication</name>
   </types>
   <types>
-    <members>ApplicationAssociation__c.Account__c</members>
-    <members>ApplicationAssociation__c.Application__c</members>
-    <members>ApplicationAssociation__c.Role__c</members>
-    <members>Application__c.Customer_Name__c</members>
-    <members>Application__c.FileNumber__c</members>
-    <members>Application__c.FileNumberType__c</members>
-    <members>Application__c.ReceiptNumber__c</members>
-    <members>Case.ProductHasExtendedWarranty__c</members>
-    <members>Case.ProductPurchaseDate__c</members>
-    <members>Case.ProductTotalWarrantyDays__c</members>
-    <members>Case.WarrantySummary__c</members>
-    <members>FormAssignment__c.Contact__c</members>
-    <members>FormAssignment__c.Form__c</members>
-    <members>Form__c.Topic__c</members>
-    <members>Lead.Competitor_1__c</members>
-    <members>Lead.Competitor_1_Price__c</members>
-    <members>Lead.Competitor_2__c</members>
-    <members>Lead.Competitor_2_Price__c</members>
-    <members>Lead.Competitor_3__c</members>
-    <members>Lead.Competitor_3_Price__c</members>
-    <members>Lead.Grade__c</members>
-    <members>Lead.LeadingCompetitor__c</members>
-    <members>Lead.Price__c</members>
-    <members>Lead.Score__c</members>
-    <members>User.ContactID__c</members>
-    <members>Web_Services_Utility__c.Password__c</members>
-    <members>Web_Services_Utility__c.UserName__c</members>
+    <members>*</members>
     <name>CustomField</name>
   </types>
   <types>
@@ -236,24 +203,6 @@
     <name>HomePageLayout</name>
   </types>
   <types>
-    <members>mule</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
     <name>InstalledPackage</name>
   </types>
   <types>
@@ -311,60 +260,6 @@
     <name>Layout</name>
   </types>
   <types>
-    <members>Account.AllAccounts</members>
-    <members>Account.MyAccounts</members>
-    <members>Account.NewThisWeek</members>
-    <members>Activity.MyActivities</members>
-    <members>Activity.MyDelegatedActivities</members>
-    <members>Activity.MyTeamsActivities</members>
-    <members>Activity.TodaysTasks</members>
-    <members>Activity.UpcomingEvents</members>
-    <members>Application__c.All</members>
-    <members>Asset.AllAssets</members>
-    <members>Campaign.AllActiveCampaigns</members>
-    <members>Campaign.MyActiveCampaigns</members>
-    <members>Case.AllOpenCases</members>
-    <members>Case.MyCases</members>
-    <members>Case.MyOpenCases</members>
-    <members>Contact.AllContacts</members>
-    <members>Contact.BirthdaysThisMonth</members>
-    <members>Contact.NewThisWeek</members>
-    <members>Contract.AllActivatedContracts</members>
-    <members>Contract.AllContracts</members>
-    <members>Contract.AllDraftContracts</members>
-    <members>Contract.AllInApprovalContracts</members>
-    <members>Contract.MyActivatedContracts</members>
-    <members>Contract.MyDraftContracts</members>
-    <members>Contract.MyInApprovalContracts</members>
-    <members>FormAssignment__c.All</members>
-    <members>Form__c.All</members>
-    <members>Idea.Ideas_Last_7_Days</members>
-    <members>Knowledge__kav.archived_articles</members>
-    <members>Knowledge__kav.draft_articles</members>
-    <members>Knowledge__kav.published_articles</members>
-    <members>Lead.AllOpenLeads</members>
-    <members>Lead.MyUnreadLeads</members>
-    <members>Lead.TodaysLeads</members>
-    <members>Opportunity.AllOpportunities</members>
-    <members>Opportunity.ClosingNextMonth</members>
-    <members>Opportunity.ClosingThisMonth</members>
-    <members>Opportunity.Default_Opportunity_Pipeline</members>
-    <members>Opportunity.MyOpportunities</members>
-    <members>Opportunity.NewThisWeek</members>
-    <members>Opportunity.Won</members>
-    <members>Order.AllActivatedOrders</members>
-    <members>Order.AllDraftOrders</members>
-    <members>Order.AllOrders</members>
-    <members>Product2.AllProducts</members>
-    <members>SocialPost.AllSocialPosts</members>
-    <members>Solution.AllReviewedSolutions</members>
-    <members>Solution.AllUnreviewedSolutions</members>
-    <members>User.ActiveUsers</members>
-    <members>User.AdminUsers</members>
-    <members>User.AllUsers</members>
-    <members>WorkFeedbackRequest.AboutTopics</members>
-    <members>WorkFeedbackRequest.All</members>
-    <members>WorkOrder.My_WorkOrders</members>
     <name>ListView</name>
   </types>
   <types>
@@ -380,8 +275,6 @@
     <name>MatchingRules</name>
   </types>
   <types>
-    <members>Demo_Named_Credential_MyUSCIS</members>
-    <members>Demo_Named_Credential_PCQS</members>
     <name>NamedCredential</name>
   </types>
   <types>
@@ -440,10 +333,7 @@
     <name>QuickAction</name>
   </types>
   <types>
-    <members>Application__c.I_130</members>
-    <members>Application__c.I_290B</members>
-    <members>Metric.Completion</members>
-    <members>Metric.Progress</members>
+    <members>*</members>
     <name>RecordType</name>
   </types>
   <types>
