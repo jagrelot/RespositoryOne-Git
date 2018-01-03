@@ -28,45 +28,7 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>Topic__c</fullName>
-        <externalId>false</externalId>
-        <label>Topic</label>
-        <picklist>
-            <picklistValues>
-                <fullName>One</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Two</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Three</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Four</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Five</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Six</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <label>Form</label>
-    <nameField>
+    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Form</label><nameField>
         <label>Form Name</label>
         <type>Text</type>
     </nameField><pluralLabel>Forms</pluralLabel><searchLayouts /><sharingModel>ReadWrite</sharingModel><visibility>Public</visibility><listViews>
