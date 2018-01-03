@@ -1,6 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
- <types>
+﻿<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>AccountManualDeDupeTest</members>
+    <members>checkbox</members>
+    <members>ClassToDeleteOne</members>
+    <members>ClassToDeleteTwo</members>
+    <members>DataLoadScript</members>
+    <members>FlowFinishLocation</members>
+    <members>FlowFinishLocationTest</members>
+    <members>LeadingCompetitorTest</members>
+    <members>ManagingApex1Test</members>
+    <members>WarrantySummary</members>
+    <members>WarrantySummaryTest</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>NewApplicationFlowPage</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
+    <members>AccountManualDeDupe</members>
+    <members>AssignLeadGrade</members>
+    <members>CheckSecretInformation</members>
+    <members>HelloWorldTrigger</members>
+    <members>LeadingCompetitor</members>
+    <members>WarrantySummary</members>
+    <name>ApexTrigger</name>
+  </types>
+  <types>
+    <members>AppSwitcher</members>
+    <members>Salesforce1</members>
+    <name>AppMenu</name>
+  </types>
+  <types>
+    <members>Case.Case_Test</members>
+    <name>ApprovalProcess</name>
+  </types>
+  <types>
     <members>Case</members>
     <members>Lead</members>
     <name>AssignmentRules</name>
@@ -9,6 +44,64 @@
     <members>Case</members>
     <members>Lead</members>
     <name>AutoResponseRules</name>
+  </types>
+  <types>
+    <members>DataCloudCompanyMatch</members>
+    <members>DataCloudGeoLocation</members>
+    <members>DataCloudLeadAppend</members>
+    <name>CleanDataService</name>
+  </types>
+  <types>
+    <members>Internal Zone</members>
+    <name>Community</name>
+  </types>
+  <types>
+    <members>Console360</members>
+    <members>Lightning_Console_Example</members>
+    <members>standard__AppLauncher</members>
+    <members>standard__Chatter</members>
+    <members>standard__Community</members>
+    <members>standard__Content</members>
+    <members>standard__LightningSales</members>
+    <members>standard__LightningSalesConsole</members>
+    <members>standard__LightningService</members>
+    <members>standard__Marketing</members>
+    <members>standard__Platform</members>
+    <members>standard__Sales</members>
+    <members>standard__Service</members>
+    <members>standard__ServiceConsole</members>
+    <members>standard__Sites</members>
+    <name>CustomApplication</name>
+  </types>
+  <types>
+    <members>ApplicationAssociation__c.Account__c</members>
+    <members>ApplicationAssociation__c.Application__c</members>
+    <members>ApplicationAssociation__c.Role__c</members>
+    <members>Application__c.Customer_Name__c</members>
+    <members>Application__c.FileNumber__c</members>
+    <members>Application__c.FileNumberType__c</members>
+    <members>Application__c.ReceiptNumber__c</members>
+    <members>Case.ProductHasExtendedWarranty__c</members>
+    <members>Case.ProductPurchaseDate__c</members>
+    <members>Case.ProductTotalWarrantyDays__c</members>
+    <members>Case.WarrantySummary__c</members>
+    <members>FormAssignment__c.Contact__c</members>
+    <members>FormAssignment__c.Form__c</members>
+    <members>Form__c.Topic__c</members>
+    <members>Lead.Competitor_1__c</members>
+    <members>Lead.Competitor_1_Price__c</members>
+    <members>Lead.Competitor_2__c</members>
+    <members>Lead.Competitor_2_Price__c</members>
+    <members>Lead.Competitor_3__c</members>
+    <members>Lead.Competitor_3_Price__c</members>
+    <members>Lead.Grade__c</members>
+    <members>Lead.LeadingCompetitor__c</members>
+    <members>Lead.Price__c</members>
+    <members>Lead.Score__c</members>
+    <members>User.ContactID__c</members>
+    <members>Web_Services_Utility__c.Password__c</members>
+    <members>Web_Services_Utility__c.UserName__c</members>
+    <name>CustomField</name>
   </types>
   <types>
     <members>CustomLabels</members>
@@ -33,13 +126,17 @@
     <members>ContractContactRole</members>
     <members>DuplicateRecordItem</members>
     <members>DuplicateRecordSet</members>
-    <!-- <members>EmailMessage</members> -->
+    <members>EmailMessage</members>
     <members>Event</members>
     <members>ExchangeUserMapping</members>
     <members>FeedItem</members>
-<!--     <members>ForecastingCategoryMapping</members> -->
+    <members>ForecastingCategoryMapping</members>
+    <members>FormAssignment__c</members>
+    <members>Form__c</members>
     <members>Idea</members>
+    <members>Knowledge__kav</members>
     <members>Lead</members>
+    <members>LinkedArticle</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
@@ -56,27 +153,43 @@
     <members>ProfileSkill</members>
     <members>ProfileSkillEndorsement</members>
     <members>ProfileSkillUser</members>
-    <members>SOSSession</members>
-    <members>SOSSessionActivity</members>
+    <members>Scorecard</members>
+    <members>ScorecardMetric</members>
     <members>Site</members>
     <members>SocialPersona</members>
     <members>SocialPost</members>
     <members>Solution</members>
+    <members>SOSSession</members>
+    <members>SOSSessionActivity</members>
     <members>StreamingChannel</members>
     <members>Task</members>
     <members>User</members>
     <members>UserProvisioningRequest</members>
+    <members>Web_Services_Utility__c</members>
     <members>WorkBadge</members>
     <members>WorkBadgeDefinition</members>
     <members>WorkOrder</members>
     <members>WorkOrderLineItem</members>
     <members>WorkThanks</members>
-    <members>Form__c</members>
-    <members>FormAssignment__c</members>
-    <members>Web_Services_Utility__c</members>
     <name>CustomObject</name>
   </types>
- <!--  <types>
+  <types>
+    <members>ApplicationAssociation__c-en_US</members>
+    <members>Application__c-en_US</members>
+    <members>FormAssignment__c-en_US</members>
+    <members>Form__c-en_US</members>
+    <members>Knowledge__kav-en_US</members>
+    <members>Web_Services_Utility__c-en_US</members>
+    <name>CustomObjectTranslation</name>
+  </types>
+  <types>
+    <members>Application__c</members>
+    <members>FormAssignment__c</members>
+    <members>Form__c</members>
+    <members>Knowledge__kav</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
     <members>CompanyDashboards</members>
     <members>CompanyDashboards/AdoptionDashboard</members>
     <members>CompanyDashboards/CompanyPerformanceDashboard</members>
@@ -87,17 +200,14 @@
     <name>Document</name>
   </types>
   <types>
-    <members>unfiled$public</members>
-    <members>unfiled$public/ContactFollowUpSAMPLE</members>
-    <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
-    <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
-    <members>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</members>
-    <members>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</members>
-    <members>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</members>
-    <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
-    <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-    <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
-    <members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
+    <members>Account.Standard_Account_duplicate_rule</members>
+    <members>Contact.Standard_Contact_duplicate_rule</members>
+    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+    <members>Lead.Standard_Lead_duplicate_rule</members>
+    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
+    <name>DuplicateRule</name>
+  </types>
+  <types>
     <name>EmailTemplate</name>
   </types>
   <types>
@@ -105,10 +215,236 @@
     <name>EscalationRules</name>
   </types>
   <types>
+    <members>Account_Record_Page</members>
+    <members>Account_Record_Page1</members>
+    <members>Application_Association_Record_Page</members>
+    <members>Application_Record_Page</members>
+    <members>Application_Record_Page1</members>
+    <members>Console360_UtilityBar</members>
+    <members>LightningSalesConsole_UtilityBar</members>
+    <members>LightningService_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
+    <name>Flow</name>
+  </types>
+  <types>
+    <name>FlowDefinition</name>
+  </types>
+  <types>
+    <members>Dashboard Home Page Default</members>
+    <name>HomePageLayout</name>
+  </types>
+  <types>
+    <members>mule</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <members>sf_com_apps</members>
+    <name>InstalledPackage</name>
+  </types>
+  <types>
+    <members>Account-Account Layout</members>
+    <members>ApplicationAssociation__c-Application Association Layout</members>
+    <members>Application__c-Application Layout</members>
+    <members>Asset-Asset Layout</members>
+    <members>AssetRelationship-Asset Relationship Layout</members>
+    <members>Campaign-Campaign Layout</members>
+    <members>CampaignMember-Campaign Member Page Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CaseClose-Close Case Layout</members>
+    <members>Contact-Contact Layout</members>
+    <members>ContentVersion-Content Version Layout</members>
+    <members>Contract-Contract Layout</members>
+    <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+    <members>EmailMessage-Email Message Layout</members>
+    <members>Event-Event Layout</members>
+    <members>FeedItem-Feed Item Layout</members>
+    <members>FormAssignment__c-Form Assignment Layout</members>
+    <members>Form__c-Form Layout</members>
+    <members>Global-Global Layout</members>
+    <members>Idea-Idea Layout</members>
+    <members>Knowledge__kav-Knowledge Layout</members>
+    <members>Lead-Lead Layout</members>
+    <members>Macro-Macro Layout</members>
+    <members>OpportunityLineItem-Opportunity Product Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>OrderItem-Order Product Layout</members>
+    <members>Order-Order Layout</members>
+    <members>Pricebook2-Price Book Layout</members>
+    <members>PricebookEntry-Price Book Entry</members>
+    <members>Product2-Product Layout</members>
+    <members>ProfileSkillEndorsement-Endorsement Layout</members>
+    <members>ProfileSkill-Skill Layout</members>
+    <members>ProfileSkillUser-Skill User Layout</members>
+    <members>ScorecardMetric-Scorecard Metric Layout</members>
+    <members>Scorecard-Scorecard Layout</members>
+    <members>SocialPersona-Social Persona Layout</members>
+    <members>SocialPost-Social Post Layout</members>
+    <members>Solution-Solution Layout</members>
+    <members>SOSSessionActivity-SOS Session Activity Layout</members>
+    <members>SOSSession-SOS Session Layout</members>
+    <members>Task-Task Layout</members>
+    <members>UserProvAccount-User Provisioning Account Layout</members>
+    <members>UserProvisioningLog-User Provisioning Log Layout</members>
+    <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+    <members>User-User Layout</members>
+    <members>WorkAccess-Access Layout</members>
+    <members>WorkBadge-Badge Received Layout</members>
+    <members>WorkBadgeDefinition-Badge Layout</members>
+    <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+    <members>WorkOrder-Work Order Layout</members>
+    <members>WorkThanks-Thanks Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>Account.AllAccounts</members>
+    <members>Account.MyAccounts</members>
+    <members>Account.NewThisWeek</members>
+    <members>Activity.MyActivities</members>
+    <members>Activity.MyDelegatedActivities</members>
+    <members>Activity.MyTeamsActivities</members>
+    <members>Activity.TodaysTasks</members>
+    <members>Activity.UpcomingEvents</members>
+    <members>Application__c.All</members>
+    <members>Asset.AllAssets</members>
+    <members>Campaign.AllActiveCampaigns</members>
+    <members>Campaign.MyActiveCampaigns</members>
+    <members>Case.AllOpenCases</members>
+    <members>Case.MyCases</members>
+    <members>Case.MyOpenCases</members>
+    <members>Contact.AllContacts</members>
+    <members>Contact.BirthdaysThisMonth</members>
+    <members>Contact.NewThisWeek</members>
+    <members>Contract.AllActivatedContracts</members>
+    <members>Contract.AllContracts</members>
+    <members>Contract.AllDraftContracts</members>
+    <members>Contract.AllInApprovalContracts</members>
+    <members>Contract.MyActivatedContracts</members>
+    <members>Contract.MyDraftContracts</members>
+    <members>Contract.MyInApprovalContracts</members>
+    <members>FormAssignment__c.All</members>
+    <members>Form__c.All</members>
+    <members>Idea.Ideas_Last_7_Days</members>
+    <members>Knowledge__kav.archived_articles</members>
+    <members>Knowledge__kav.draft_articles</members>
+    <members>Knowledge__kav.published_articles</members>
+    <members>Lead.AllOpenLeads</members>
+    <members>Lead.MyUnreadLeads</members>
+    <members>Lead.TodaysLeads</members>
+    <members>Opportunity.AllOpportunities</members>
+    <members>Opportunity.ClosingNextMonth</members>
+    <members>Opportunity.ClosingThisMonth</members>
+    <members>Opportunity.Default_Opportunity_Pipeline</members>
+    <members>Opportunity.MyOpportunities</members>
+    <members>Opportunity.NewThisWeek</members>
+    <members>Opportunity.Won</members>
+    <members>Order.AllActivatedOrders</members>
+    <members>Order.AllDraftOrders</members>
+    <members>Order.AllOrders</members>
+    <members>Product2.AllProducts</members>
+    <members>SocialPost.AllSocialPosts</members>
+    <members>Solution.AllReviewedSolutions</members>
+    <members>Solution.AllUnreviewedSolutions</members>
+    <members>User.ActiveUsers</members>
+    <members>User.AdminUsers</members>
+    <members>User.AllUsers</members>
+    <members>WorkFeedbackRequest.AboutTopics</members>
+    <members>WorkFeedbackRequest.All</members>
+    <members>WorkOrder.My_WorkOrders</members>
+    <name>ListView</name>
+  </types>
+  <types>
+    <members>Account.Standard_Account_Match_Rule_v1_0</members>
+    <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+    <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+    <name>MatchingRule</name>
+  </types>
+  <types>
     <members>Account</members>
     <members>Contact</members>
     <members>Lead</members>
     <name>MatchingRules</name>
+  </types>
+  <types>
+    <members>Demo_Named_Credential_MyUSCIS</members>
+    <members>Demo_Named_Credential_PCQS</members>
+    <name>NamedCredential</name>
+  </types>
+  <types>
+    <members>Admin</members>
+    <members>Analytics Cloud Integration User</members>
+    <members>Analytics Cloud Security User</members>
+    <members>Chatter External User</members>
+    <members>Chatter Free User</members>
+    <members>Chatter Moderator User</members>
+    <members>Chatter Only User</members>
+    <members>Company Communities User</members>
+    <members>ContractManager</members>
+    <members>Customer Community Login User</members>
+    <members>Customer Community Plus Login User</members>
+    <members>Customer Community Plus User</members>
+    <members>Customer Community User</members>
+    <members>Guest License User</members>
+    <members>High Volume Customer Portal User</members>
+    <members>MarketingProfile</members>
+    <members>Partner Community Login User</members>
+    <members>Partner Community User</members>
+    <members>ReadOnly</members>
+    <members>SolutionManager</members>
+    <members>Standard</members>
+    <members>StandardAul</members>
+    <members>Super User</members>
+    <members>Work%2Ecom Only User</members>
+    <name>Profile</name>
+  </types>
+  <types>
+    <members>Case.LogACall</members>
+    <members>Case.NewChildCase</members>
+    <members>Case.SendEmail</members>
+    <members>CollaborationGroup.NewGroupMember</members>
+    <members>CollaborationGroup.NewGroupRecord</members>
+    <members>FeedItem.NewTaskFromFeedItem</members>
+    <members>LogACall</members>
+    <members>NewAccount</members>
+    <members>NewCase</members>
+    <members>NewContact</members>
+    <members>NewEvent</members>
+    <members>NewGroup</members>
+    <members>NewLead</members>
+    <members>NewNote</members>
+    <members>NewOpportunity</members>
+    <members>NewTask</members>
+    <members>SendEmail</members>
+    <members>Task.Defer</members>
+    <members>Task.Defer_0</members>
+    <members>Task.EditDescription</members>
+    <members>Task.EditDescription_0</members>
+    <members>Task.UpdatePriority</members>
+    <members>Task.UpdatePriority_0</members>
+    <members>Task.UpdateStatus</members>
+    <members>Task.UpdateStatus_0</members>
+    <name>QuickAction</name>
+  </types>
+  <types>
+    <members>Application__c.I_130</members>
+    <members>Application__c.I_290B</members>
+    <members>Metric.Completion</members>
+    <members>Metric.Progress</members>
+    <name>RecordType</name>
   </types>
   <types>
     <members>unfiled$public</members>
@@ -123,15 +459,6 @@
     <members>unfiled$public/SampleReportLoginLeaderboard</members>
     <members>unfiled$public/SampleReportLoginWallofShame</members>
     <members>unfiled$public/SampleReportMonthtoDateTrending</members>
-    <members>unfiled$public/SampleReportOpenCasesByPriority</members>
-    <members>unfiled$public/SampleReportOpenDeals</members>
-    <members>unfiled$public/SampleReportPipelineByCloseMonth</members>
-    <members>unfiled$public/SampleReportPipelineHistory</members>
-    <members>unfiled$public/SampleReportSalesLeaderboard</members>
-    <members>unfiled$public/SampleReportSalesPipelinebyStage</members>
-    <members>unfiled$public/SampleReportSolutionsAdded</members>
-    <members>unfiled$public/SampleReportTopAccounts</members>
-    <members>unfiled$public/SampleReportUsersLoggedIn</members>
     <members>unfiled$public/SampleReportofAccounts</members>
     <members>unfiled$public/SampleReportofCases</members>
     <members>unfiled$public/SampleReportofContacts</members>
@@ -142,33 +469,83 @@
     <members>unfiled$public/SampleReportofReports</members>
     <members>unfiled$public/SampleReportofSolutions</members>
     <members>unfiled$public/SampleReportofTasksandActivities</members>
+    <members>unfiled$public/SampleReportOpenCasesByPriority</members>
+    <members>unfiled$public/SampleReportOpenDeals</members>
+    <members>unfiled$public/SampleReportPipelineByCloseMonth</members>
+    <members>unfiled$public/SampleReportPipelineHistory</members>
+    <members>unfiled$public/SampleReportSalesLeaderboard</members>
+    <members>unfiled$public/SampleReportSalesPipelinebyStage</members>
     <members>unfiled$public/SampleReportsLeadsbyStatus</members>
+    <members>unfiled$public/SampleReportSolutionsAdded</members>
+    <members>unfiled$public/SampleReportTopAccounts</members>
+    <members>unfiled$public/SampleReportUsersLoggedIn</members>
     <name>Report</name>
-  </types> -->
+  </types>
   <types>
     <members>Account</members>
-    <members>ApplicationAssociation__c</members>
+    <members>Activities</members>
+    <members>Address</members>
+    <members>BusinessHours</members>
+    <members>Case</members>
+    <members>Company</members>
+    <members>Contract</members>
+    <members>Entitlement</members>
+    <members>Forecasting</members>
+    <members>Ideas</members>
+    <members>Knowledge</members>
+    <members>LiveAgent</members>
+    <members>Mobile</members>
+    <members>Name</members>
+    <members>Opportunity</members>
+    <members>Order</members>
+    <members>OrgPreference</members>
+    <members>PathAssistant</members>
+    <members>PersonalJourney</members>
+    <members>Product</members>
+    <members>Quote</members>
+    <members>Search</members>
+    <members>Security</members>
+    <name>Settings</name>
+  </types>
+  <types>
+    <members>Account</members>
     <members>Application__c</members>
     <members>Asset</members>
-    <members>AssistantProgress</members>
     <members>Campaign</members>
     <members>Case</members>
     <members>Contact</members>
-    <members>ExchangeUserMapping</members>
+    <members>Form__c</members>
     <members>Lead</members>
-    <members>Macro</members>
     <members>Opportunity</members>
     <members>Order</members>
-    <members>ProfileSkill</members>
-    <members>SOSSession</members>
-    <members>SocialPost</members>
-    <members>StreamingChannel</members>
     <members>User</members>
-    <members>UserProvisioningRequest</members>
-    <members>WorkBadgeDefinition</members>
+    <members>Web_Services_Utility__c</members>
     <members>WorkOrder</members>
-    <members>WorkThanks</members>
     <name>SharingRules</name>
+  </types>
+  <types>
+    <members>Account.AltavistaNews</members>
+    <members>Account.GoogleMaps</members>
+    <members>Account.GoogleNews</members>
+    <members>Account.GoogleSearch</members>
+    <members>Account.HooversProfile</members>
+    <members>Account.YahooMaps</members>
+    <members>Application__c.New_Application</members>
+    <members>Campaign.ViewAllCampaignMembers</members>
+    <members>Campaign.ViewCampaignInfluenceReport</members>
+    <members>Contact.GoogleMaps</members>
+    <members>Contact.GoogleSearch</members>
+    <members>Contact.SendGmail</members>
+    <members>Contact.YahooMaps</members>
+    <members>Contact.YahooWeather</members>
+    <members>Lead.AltavistaNews</members>
+    <members>Lead.GoogleMaps</members>
+    <members>Lead.GoogleNews</members>
+    <members>Lead.GoogleSearch</members>
+    <members>Lead.HooversProfile</members>
+    <members>Lead.SendGmail</members>
+    <members>Lead.YahooMaps</members>
+    <name>WebLink</name>
   </types>
   <types>
     <members>Account</members>
@@ -180,17 +557,20 @@
     <members>Campaign</members>
     <members>CampaignMember</members>
     <members>Case</members>
-    <members>CaseComment</members>
     <members>Contact</members>
     <members>Contract</members>
     <members>DuplicateRecordItem</members>
     <members>DuplicateRecordSet</members>
-<!--     <members>EmailMessage</members> -->
+    <members>EmailMessage</members>
     <members>Event</members>
     <members>ExchangeUserMapping</members>
     <members>FeedItem</members>
+    <members>FormAssignment__c</members>
+    <members>Form__c</members>
     <members>Idea</members>
+    <members>Knowledge__kav</members>
     <members>Lead</members>
+    <members>LinkedArticle</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
@@ -203,17 +583,18 @@
     <members>ProfileSkill</members>
     <members>ProfileSkillEndorsement</members>
     <members>ProfileSkillUser</members>
-    <members>SOSSession</members>
-    <members>SOSSessionActivity</members>
     <members>Site</members>
     <members>SocialPersona</members>
     <members>SocialPost</members>
     <members>Solution</members>
+    <members>SOSSession</members>
+    <members>SOSSessionActivity</members>
     <members>StreamingChannel</members>
     <members>Task</members>
     <members>User</members>
     <members>UserLicense</members>
     <members>UserProvisioningRequest</members>
+    <members>Web_Services_Utility__c</members>
     <members>WorkBadge</members>
     <members>WorkBadgeDefinition</members>
     <members>WorkOrder</members>
@@ -221,247 +602,13 @@
     <members>WorkThanks</members>
     <name>Workflow</name>
   </types>
-<!--   <types>
-    <members>Account.Standard_Account_duplicate_rule</members>
-    <members>Contact.Standard_Contact_duplicate_rule</members>
-    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
-    <members>Lead.Standard_Lead_duplicate_rule</members>
-    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
-    <name>DuplicateRule</name>
-  </types> -->
-<!--   <types>
-    <members>DataCloudCompanyMatch</members>
-    <members>DataCloudGeoLocation</members>
-    <members>DataCloudLeadAppend</members>
-    <name>CleanDataService</name>
-  </types> -->
   <types>
-    <members>*</members>
-    <name>ActionLinkGroupTemplate</name>
+    <members>Case.Email_Alert_for_Case_Question</members>
+    <name>WorkflowAlert</name>
   </types>
   <types>
-    <members>*</members>
-    <name>AnalyticSnapshot</name>
+    <members>Case.Question Email Alert</members>
+    <name>WorkflowRule</name>
   </types>
-  <types>
-    <members>*</members>
-    <name>ApexClass</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApexComponent</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApexPage</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApexTrigger</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>AppMenu</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApprovalProcess</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>AuraDefinitionBundle</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>AuthProvider</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CallCenter</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Certificate</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ChannelLayout</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Community</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ConnectedApp</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CorsWhitelistOrigin</name>
-  </types>
-<!--   <types>
-    <members>*</members>
-    <name>CustomApplication</name>
-  </types> -->
-  <types>
-    <members>*</members>
-    <name>CustomApplicationComponent</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomFeedFilter</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomMetadata</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomObjectTranslation</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomPageWebLink</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomPermission</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomSite</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CustomTab</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>DataCategoryGroup</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>DelegateGroup</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ExternalDataSource</name>
-  </types>
-<!--   <types>
-    <members>*</members>
-    <name>FlexiPage</name>
-  </types> -->
-  <!-- <types>
-    <members>*</members>
-    <name>Flow</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>FlowDefinition</name>
-  </types> -->
-  <types>
-    <members>*</members>
-    <name>GlobalPicklist</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Group</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>HomePageComponent</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>HomePageLayout</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>InstalledPackage</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Layout</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>LeadConvertSettings</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Letterhead</name>
-  </types>
-<!--   <types>
-    <members>*</members>
-    <name>NamedCredential</name>
-  </types> -->
-  <types>
-    <members>*</members>
-    <name>PathAssistant</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>PermissionSet</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>PlatformCachePartition</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>PostTemplate</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Profile</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Queue</name>
-  </types>
-<!--   <types>
-    <members>*</members>
-    <name>QuickAction</name>
-  </types>
- -->  <types>
-    <members>*</members>
-    <name>RemoteSiteSetting</name>
-  </types>
-<!--   <types>
-    <members>*</members>
-    <name>ReportType</name>
-  </types> -->
-  <types>
-    <members>*</members>
-    <name>Role</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>SamlSsoConfig</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Scontrol</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>SharingSet</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>SiteDotCom</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>StaticResource</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>SynonymDictionary</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>Settings</name>
-  </types>
-  <version>36.0</version>
+  <version>38.0</version>
 </Package>
