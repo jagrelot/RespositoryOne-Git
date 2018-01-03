@@ -610,5 +610,5 @@
     <members>Case.Question Email Alert</members>
     <name>WorkflowRule</name>
   </types>
-  <version>38.0</version>
+  <version>41.0</version>
 </Package>
