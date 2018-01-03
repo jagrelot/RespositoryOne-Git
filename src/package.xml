@@ -1,14 +1,6 @@
 ﻿<Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>AccountManualDeDupeTest</members>
-    <members>checkbox</members>
-    <members>DataLoadScript</members>
-    <members>FlowFinishLocation</members>
-    <members>FlowFinishLocationTest</members>
-    <members>LeadingCompetitorTest</members>
-    <members>ManagingApex1Test</members>
-    <members>WarrantySummary</members>
-    <members>WarrantySummaryTest</members>
+    <members>*</members>
     <name>ApexClass</name>
   </types>
   <types>
