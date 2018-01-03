@@ -101,9 +101,7 @@
     <members>FormAssignment__c</members>
     <members>Form__c</members>
     <members>Idea</members>
-    <members>Knowledge__kav</members>
     <members>Lead</members>
-    <members>LinkedArticle</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
@@ -120,8 +118,6 @@
     <members>ProfileSkill</members>
     <members>ProfileSkillEndorsement</members>
     <members>ProfileSkillUser</members>
-    <members>Scorecard</members>
-    <members>ScorecardMetric</members>
     <members>Site</members>
     <members>SocialPersona</members>
     <members>SocialPost</members>
@@ -145,7 +141,6 @@
     <members>Application__c-en_US</members>
     <members>FormAssignment__c-en_US</members>
     <members>Form__c-en_US</members>
-    <members>Knowledge__kav-en_US</members>
     <members>Web_Services_Utility__c-en_US</members>
     <name>CustomObjectTranslation</name>
   </types>
@@ -182,14 +177,6 @@
     <name>EscalationRules</name>
   </types>
   <types>
-    <members>Account_Record_Page</members>
-    <members>Account_Record_Page1</members>
-    <members>Application_Association_Record_Page</members>
-    <members>Application_Record_Page</members>
-    <members>Application_Record_Page1</members>
-    <members>Console360_UtilityBar</members>
-    <members>LightningSalesConsole_UtilityBar</members>
-    <members>LightningService_UtilityBar</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -239,8 +226,6 @@
     <members>ProfileSkillEndorsement-Endorsement Layout</members>
     <members>ProfileSkill-Skill Layout</members>
     <members>ProfileSkillUser-Skill User Layout</members>
-    <members>ScorecardMetric-Scorecard Metric Layout</members>
-    <members>Scorecard-Scorecard Layout</members>
     <members>SocialPersona-Social Persona Layout</members>
     <members>SocialPost-Social Post Layout</members>
     <members>Solution-Solution Layout</members>
@@ -263,9 +248,6 @@
     <name>ListView</name>
   </types>
   <types>
-    <members>Account.Standard_Account_Match_Rule_v1_0</members>
-    <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-    <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
     <name>MatchingRule</name>
   </types>
   <types>
@@ -300,7 +282,6 @@
     <members>SolutionManager</members>
     <members>Standard</members>
     <members>StandardAul</members>
-    <members>Super User</members>
     <members>Work%2Ecom Only User</members>
     <name>Profile</name>
   </types>
@@ -456,9 +437,7 @@
     <members>FormAssignment__c</members>
     <members>Form__c</members>
     <members>Idea</members>
-    <members>Knowledge__kav</members>
     <members>Lead</members>
-    <members>LinkedArticle</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
