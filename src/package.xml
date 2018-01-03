@@ -67,7 +67,6 @@
     <name>CustomApplication</name>
   </types>
   <types>
-    <members>*</members>
     <name>CustomField</name>
   </types>
   <types>
