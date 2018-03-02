@@ -64,26 +64,26 @@
         <externalId>false</externalId>
         <label>Action</label>
         <valueSet>
-            <picklistValues>
+            <value>
                 <fullName>Infopass</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Create</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Read</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Edit</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Delete</fullName>
                 <default>false</default>
-            </picklistValues>
+            </value>
             <restrictedPicklist>true</restrictedPicklist>
             <sorted>false</sorted>
         <valueSet>
