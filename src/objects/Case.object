@@ -63,7 +63,7 @@
         <fullName>Action__c</fullName>
         <externalId>false</externalId>
         <label>Action</label>
-        <picklist>
+        <valueSet>
             <picklistValues>
                 <fullName>Infopass</fullName>
                 <default>false</default>
@@ -86,7 +86,7 @@
             </picklistValues>
             <restrictedPicklist>true</restrictedPicklist>
             <sorted>false</sorted>
-        </picklist>
+        <valueSet>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
