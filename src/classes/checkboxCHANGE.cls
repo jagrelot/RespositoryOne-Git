@@ -6,7 +6,7 @@ public class checkboxCHANGE {
         public AssignComment(){}                      //Empty constructor.
     }    
     public List<assignComment> Records {get; set;}    //This will store the list of CaseComments as well as the corresponding user inputs.
-    public checkbox(ApexPages.StandardController controller)
+    public checkboxCHANGE(ApexPages.StandardController controller)
     {
         Records = new List<AssignComment>();          
         Case Record = (Case) controller.getRecord();    //Get case from controller.
