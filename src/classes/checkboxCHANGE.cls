@@ -1,4 +1,4 @@
-public class checkbox {
+public class checkboxCHANGE {
     public class AssignComment        // This class will be used to store the corresponding input from the user and the CaseComment.
     {  
         public CaseComment comment {get; set;}        //This will store the CaseComment.
