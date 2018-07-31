@@ -187,11 +187,6 @@
         <filterScope>Mine</filterScope>
         <label>My Work Orders</label>
     </listViews>
-    <listViews>
-        <fullName>My_WorkOrders</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Work Orders</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
         <customTabListAdditionalFields>Account</customTabListAdditionalFields>

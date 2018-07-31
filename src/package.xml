@@ -78,10 +78,10 @@
         <members>*</members>
         <name>ChatterExtension</name>
     </types>
-    <types>
+<!--     <types>
         <members>*</members>
         <name>CleanDataService</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>Community</name>
@@ -245,7 +245,7 @@
         <members>*</members>
         <name>EclairGeoData</name>
     </types>
-    <types>
+<!--     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/ContactFollowUpSAMPLE</members>
         <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
@@ -258,7 +258,7 @@
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
         <name>EmailTemplate</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>EmbeddedServiceBranding</name>
@@ -319,10 +319,10 @@
         <members>*</members>
         <name>HomePageLayout</name>
     </types>
-    <types>
+<!--     <types>
         <members>*</members>
         <name>InstalledPackage</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>Layout</name>
@@ -373,10 +373,10 @@
         <members>*</members>
         <name>ProfilePasswordPolicy</name>
     </types>
-    <types>
+<!--     <types>
         <members>*</members>
         <name>ProfileSessionSetting</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>Queue</name>
@@ -389,7 +389,7 @@
         <members>*</members>
         <name>RemoteSiteSetting</name>
     </types>
-    <types>
+    <!-- <types>
         <members>Testing_Folder</members>
         <members>Testing_Folder/Testing_Report</members>
         <members>unfiled$public</members>
@@ -425,7 +425,7 @@
         <members>unfiled$public/SampleReportofTasksandActivities</members>
         <members>unfiled$public/SampleReportsLeadsbyStatus</members>
         <name>Report</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>ReportType</name>
@@ -463,14 +463,14 @@
         <members>QuickText</members>
         <members>SOSSession</members>
         <members>Scorecard</members>
-        <members>SocialPost</members>
+        <!-- <members>SocialPost</members> -->
         <members>StreamingChannel</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>Web_Services_Utilities__c</members>
         <members>Web_Services_Utility__c</members>
         <members>WorkBadgeDefinition</members>
-        <members>WorkOrder</members>
+        <!-- <members>WorkOrder</members> -->
         <members>WorkThanks</members>
         <name>SharingRules</name>
     </types>
@@ -507,9 +507,9 @@
         <members>CaseComment</members>
         <name>Workflow</name>
     </types>
-    <types>
+<!--     <types>
         <members>*</members>
         <name>Settings</name>
-    </types>
+    </types> -->
     <version>41.0</version>
 </Package>
