@@ -1,51 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewProfileSkill</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewProfileSkillBySkill</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewProfileSkillByUser</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewProfileSkillEndorsement</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><fields>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
         <fullName>EndorsementCount</fullName>
         <trackHistory>false</trackHistory>
-    </fields><fields>
-        <fullName>UserId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields><fields>
+    </fields>
+    <fields>
         <fullName>ProfileSkillId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
-    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
+    </fields>
+    <fields>
+        <fullName>UserId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <searchLayouts>
         <lookupDialogsAdditionalFields>User</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ProfileSkill</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>EndorsementCount</lookupDialogsAdditionalFields>
@@ -58,4 +77,6 @@
         <searchResultsAdditionalFields>ProfileSkill</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EndorsementCount</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
-    </searchLayouts><sharingModel>ControlledByParent</sharingModel></CustomObject>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

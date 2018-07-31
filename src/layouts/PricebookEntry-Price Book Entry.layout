@@ -30,6 +30,8 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
@@ -38,6 +40,10 @@
         <fields>Pricebook2Id</fields>
         <fields>UnitPrice</fields>
     </miniLayout>
+    <multilineLayoutFields>Product2Id</multilineLayoutFields>
+    <multilineLayoutFields>Pricebook2Id</multilineLayoutFields>
+    <multilineLayoutFields>IsActive</multilineLayoutFields>
+    <multilineLayoutFields>UnitPrice</multilineLayoutFields>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>

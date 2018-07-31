@@ -1,4 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
         <fullName>Password__c</fullName>
         <externalId>false</externalId>
         <label>Password</label>
@@ -7,7 +11,8 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields><fields>
+    </fields>
+    <fields>
         <fullName>UserName__c</fullName>
         <externalId>false</externalId>
         <label>User Name</label>
@@ -16,4 +21,7 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields><customSettingsType>List</customSettingsType><enableFeeds>false</enableFeeds><label>Web Services Utility</label><visibility>Public</visibility></CustomObject>
+    </fields>
+    <label>Web Services Utility</label>
+    <visibility>Public</visibility>
+</CustomObject>

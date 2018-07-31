@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+    </brand>
+    <formFactors>Large</formFactors>
+    <label>Console360</label>
+    <navType>Console</navType>
+    <tab>Application__c</tab>
+    <tab>standard-Account</tab>
+    <tab>FormAssignment__c</tab>
+    <tab>Form__c</tab>
+    <tab>standard-home</tab>
+    <tab>Hold__c</tab>
+    <uiType>Lightning</uiType>
+    <utilityBar>Console360_UtilityBar</utilityBar>
+    <workspaceMappings>
+        <mapping>
+            <tab>Application__c</tab>
+        </mapping>
+        <mapping>
+            <tab>FormAssignment__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Form__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Hold__c</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Account</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-home</tab>
+        </mapping>
+    </workspaceMappings>
+</CustomApplication>
