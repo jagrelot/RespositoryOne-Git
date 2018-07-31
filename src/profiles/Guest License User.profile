@@ -30,11 +30,7 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningInstrumentation</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
+
     <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
