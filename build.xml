@@ -38,7 +38,8 @@
 	       logType="Debugonly"
     	   testLevel="${sf.testLevel}"
     	   rollbackOnError="${sf.rollbackOnError}"
-	       checkOnly="false"/>
+	       checkOnly="false"
+         ignoreWarnings="true"/>
   </target>
   
   <target name="retrieve">
