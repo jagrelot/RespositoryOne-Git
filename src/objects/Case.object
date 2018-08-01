@@ -379,6 +379,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>VIPCustomer__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(
+  ISPICKVAL( Account.AccountRating__c  , &apos;4&apos;),
+  ISPICKVAL( Account.AccountRating__c  , &apos;5&apos;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>VIP Customer</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>WarrantySummary__c</fullName>
         <externalId>false</externalId>
         <label>Warranty Summary</label>
@@ -441,5 +454,17 @@
         <active>true</active>
         <errorConditionFormula>AND(ISPICKVAL(Action__c,&apos;Infopass&apos;), ISBLANK(ActionSummary__c))</errorConditionFormula>
         <errorMessage>Please add Infopass summary.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VIP_Customer_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR( 
+ISPICKVAL( Account.AccountRating__c , &apos;4&apos;), 
+ISPICKVAL( Account.AccountRating__c , &apos;5&apos;) 
+), 
+NOT(VIPCustomer__c)
+)</errorConditionFormula>
+        <errorMessage>The associated Account is a VIP Customer</errorMessage>
     </validationRules>
 </CustomObject>
