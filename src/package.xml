@@ -215,10 +215,10 @@
         <members>*</members>
         <name>CustomSite</name>
     </types>
-<!--     <types>
+    <types>
         <members>*</members>
         <name>CustomTab</name>
-    </types> -->
+    </types>
     <types>
         <members>CompanyDashboards</members>
         <members>CompanyDashboards/AdoptionDashboard</members>
