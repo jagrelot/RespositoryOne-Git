@@ -173,7 +173,7 @@
         <members>ProfileSkill</members>
         <members>ProfileSkillEndorsement</members>
         <members>ProfileSkillUser</members>
-        <members>QuickText</members>
+        <!-- <members>QuickText</members> -->
         <members>RecordAction</members>
         <members>SOSSession</members>
         <members>SOSSessionActivity</members>
@@ -460,7 +460,7 @@
         <members>Opportunity</members>
         <members>Order</members>
         <members>ProfileSkill</members>
-        <members>QuickText</members>
+        <!-- <members>QuickText</members> -->
         <members>SOSSession</members>
         <members>Scorecard</members>
         <!-- <members>SocialPost</members> -->
