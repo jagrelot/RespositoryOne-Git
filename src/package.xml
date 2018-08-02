@@ -147,6 +147,7 @@
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
+        <members>Feedback__c</members>
         <members>ForecastingCategoryMapping</members>
         <members>FormAssignment__c</members>
         <members>Form__c</members>

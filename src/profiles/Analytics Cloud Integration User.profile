@@ -2067,6 +2067,9 @@
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Feedback__c-Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FormAssignment__c-Form Assignment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2318,6 +2321,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>Feedback__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>FormAssignment__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -2550,6 +2562,10 @@
     <tabVisibilities>
         <tab>Application__c</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Feedback__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>FormAssignment__c</tab>
