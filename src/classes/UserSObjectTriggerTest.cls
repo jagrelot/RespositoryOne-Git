@@ -1,10 +1,10 @@
-@isTest
+@isTest(seeAlldata=true)
 private class UserSObjectTriggerTest {
 
 	@isTest static void createUser() {
-		Id id = [SELECT Id FROM Profile WHERE Name = 'System Administrator'].Id;
+		Profile profile = [SELECT Id FROM Profile WHERE Name='System Administrator'];
 		User sfuser = new User();
-		sfuser.ProfileId  = id;
+		sfuser.ProfileId  = profile.id;
 		sfuser.firstName = 'Test';
 		sfuser.lastName  = 'User';
 		sfuser.alias     = 'Tuse';
