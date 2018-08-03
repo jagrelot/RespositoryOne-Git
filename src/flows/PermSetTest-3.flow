@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Activate</name>
+        <label>Activate</label>
+        <locationX>701</locationX>
+        <locationY>175</locationY>
+        <actionName>activateSessionPermSet</actionName>
+        <actionType>activateSessionPermSet</actionType>
+        <inputParameters>
+            <name>PermSetName</name>
+            <value>
+                <elementReference>SessionPermissionSet</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>PermSetTest {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PermSetTest</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>My_Permission_Set</name>
+        <label>My Permission Set</label>
+        <locationX>504</locationX>
+        <locationY>174</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Activate</targetReference>
+        </connector>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Temp_Edit_Access_to_Hold</stringValue>
+            </value>
+        </filters>
+        <object>PermissionSet</object>
+        <outputAssignments>
+            <assignToReference>SessionPermissionSet</assignToReference>
+            <field>Name</field>
+        </outputAssignments>
+    </recordLookups>
+    <startElementReference>My_Permission_Set</startElementReference>
+    <variables>
+        <name>SessionPermissionSet</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>
