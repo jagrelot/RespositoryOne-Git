@@ -1,4 +1,4 @@
-trigger UserSObjectTrigger on User (after insert) {
+trigger UserSObjectTrigger on User (before insert) {
 
 List<Contact> contactListToUpdate = new List<Contact>();
 List<Account> assignedAccount = [
