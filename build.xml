@@ -39,7 +39,7 @@
     	   testLevel="${sf.testLevel}"
     	   rollbackOnError="${sf.rollbackOnError}"
 	       checkOnly="false"
-         ignoreWarnings="false"/>
+         ignoreWarnings="true"/>
   </target>
   
   <target name="retrieve">
