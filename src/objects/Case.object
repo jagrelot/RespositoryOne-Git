@@ -128,6 +128,16 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields><fields>
+    <fields>
+        <fullName>ProductDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
         <fullName>ProductTotalWarrantyDays__c</fullName>
         <externalId>false</externalId>
         <label>Product Total Warranty Days</label>
