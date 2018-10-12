@@ -1,7 +1,7 @@
 @isTest
 private class WarrantySummary {
 
-	//Testing
+	//Testing Thorax
 	
 	@isTest static void test_method_one() {
 		// Implement test code
