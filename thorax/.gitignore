@@ -1,0 +1,12 @@
+.vscode/
+.idea/
+config/
+debug/
+IlluminatedCloud/
+src/\.DS_Store
+\.DS_Store
+temp/
+force.json
+build.properties
+*.pyc
+__pycache__/
