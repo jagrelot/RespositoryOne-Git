@@ -4,7 +4,9 @@ public class checkbox {
         public CaseComment comment {get; set;}        //This will store the CaseComment.
         public Boolean published {get; set;}          //This will store the input from the user.
         public AssignComment(){}                      //Empty constructor.
-    }    
+    }
+
+    //Test     
     public List<assignComment> Records {get; set;}    //This will store the list of CaseComments as well as the corresponding user inputs.
     public checkbox(ApexPages.StandardController controller)
     {
