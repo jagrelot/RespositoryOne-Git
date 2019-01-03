@@ -45,10 +45,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><applicationVisibilities>
-        <application>standard__DataAssessment</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities><applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
         <visible>true</visible>
