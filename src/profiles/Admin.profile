@@ -322,7 +322,13 @@
         <editable>false</editable>
         <field>Case.IsEscalated</field>
         <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.New_Case_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
         <readable>true</readable>

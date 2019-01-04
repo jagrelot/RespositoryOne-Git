@@ -92,7 +92,8 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields><fields>
+    </fields>
+    <fields>
         <fullName>IsEscalated</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
