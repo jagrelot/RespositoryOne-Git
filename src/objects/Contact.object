@@ -120,7 +120,18 @@
     </fields><fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-    </fields><fields>
+    </fields>
+    <fields>
+        <fullName>New_Contact_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>New Contact Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OtherAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
