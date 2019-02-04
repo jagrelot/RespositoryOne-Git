@@ -1,0 +1,25 @@
+<apex:page controller="FlowFinishLocation">
+   <style type="text/css">    
+      input{
+          margin-bottom: 10px;
+        }
+      .FlowPageBlockBtns {
+          text-align: left !important;
+      }   
+      .requiredBlock{
+          display:none;
+      }        
+   </style>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"/>
+   <script type="text/javascript">
+      $(document).ready(function () {
+        $("input.FlowNextBtn").attr("value","Submit");
+      });
+   </script > 
+   
+        <flow:interview name="New_Application_Flow" 
+                        interview="{!newApplicationFlow}" 
+                        finishLocation="{!AppPage}" 
+                        buttonLocation="bottom"  
+                        buttonStyle="padding: 10px 25px;"/>
+</apex:page>
