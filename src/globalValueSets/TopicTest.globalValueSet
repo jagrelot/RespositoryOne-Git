@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Testing 123</fullName>
+        <default>false</default>
+        <label>Testing 123</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing 1234</fullName>
+        <default>false</default>
+        <label>Testing 1234 - Update Label</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing 12345</fullName>
+        <default>false</default>
+        <label>Testing 12345</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing 123456</fullName>
+        <default>false</default>
+        <label>Testing 123456</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing 1234567</fullName>
+        <default>false</default>
+        <label>Testing 1234567</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing 12345678</fullName>
+        <default>false</default>
+        <label>Testing 12345678</label>
+    </customValue>
+    <masterLabel>TopicTest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
