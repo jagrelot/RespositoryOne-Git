@@ -22,7 +22,7 @@ Except for the limited rights to use and make copies of the Software as provided
     <target name="describeMetadata">
    		<echo>Describing Metadata...</echo>
 		<sf:describeMetadata username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" resultFilePath="${root}/describe.txt" apiVersion="${sf.apiVersion}"/>
-		<exec executable="python" failonerror="true">
+		<exec executable="python3" failonerror="true">
     		<arg line="scripts/std/describe.py ${rootArg}" />
     	</exec>
     </target>
@@ -54,7 +54,7 @@ Except for the limited rights to use and make copies of the Software as provided
 
 
     <target name="buildPackageOrg">
-    	<exec executable="python" failonerror="true">
+    	<exec executable="python3" failonerror="true">
     		<arg line="scripts/std/packageorg.py ${rootArg} ${sf.apiVersion}" />
     	</exec>
 	</target>
@@ -66,7 +66,7 @@ Except for the limited rights to use and make copies of the Software as provided
     </target>
 
 	<target name="processFolder">
-    	<exec executable="python" failonerror="true">
+    	<exec executable="python3" failonerror="true">
     		<arg line="scripts/std/folder.py ${rootArg}" />
     	</exec>
 	</target>
@@ -97,7 +97,7 @@ Except for the limited rights to use and make copies of the Software as provided
  		<mkdir dir="${root}/temp/FlowDefinitions"/>
 		<sf:bulkRetrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" metadataType="FlowDefinition" retrieveTarget="${root}/temp/FlowDefinitions" batchSize="10000" apiVersion="${sf.apiVersion}"/>
 
-		<exec executable="python" failonerror="true">
+		<exec executable="python3" failonerror="true">
     		<arg line="scripts/std/flow.py ${rootArg}" />
     	</exec>
  	</target>
@@ -106,7 +106,7 @@ Except for the limited rights to use and make copies of the Software as provided
         <mkdir dir="${root}/temp/SharingRules"/>
         <sf:bulkRetrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" metadataType="SharingRules" retrieveTarget="${root}/temp/SharingRules" batchSize="10000" apiVersion="${sf.apiVersion}"/>
 
-        <exec executable="python" failonerror="true">
+        <exec executable="python3" failonerror="true">
             <arg line="scripts/std/sharing.py ${rootArg}" />
         </exec>
     </target>
@@ -118,7 +118,7 @@ Except for the limited rights to use and make copies of the Software as provided
                 <mkdir dir="${root}/temp/FlowDefinitions"/>
                 <sf:bulkRetrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" metadataType="FlowDefinition" retrieveTarget="${root}/temp/FlowDefinitions" batchSize="10000" apiVersion="${sf.apiVersion}"/>
 
-                <exec executable="python" failonerror="true">
+                <exec executable="python3" failonerror="true">
                     <arg line="scripts/std/removeactiveflows.py ${rootArg}" />
                 </exec>
             </then>
@@ -129,19 +129,19 @@ Except for the limited rights to use and make copies of the Software as provided
     </target>
 
  	<target name="processSVSets">
- 		<exec executable="python" failonerror="true">
+ 		<exec executable="python3" failonerror="true">
     		<arg line="scripts/std/svset.py ${rootArg}" />
     	</exec>
  	</target>
 
     <target name="processTranslations">
-        <exec executable="python" failonerror="true">
+        <exec executable="python3" failonerror="true">
             <arg line="scripts/std/translations.py ${rootArg}" />
         </exec>
     </target>
 
     <target name="processObjectTranslations">
-        <exec executable="python" failonerror="true">
+        <exec executable="python3" failonerror="true">
             <arg line="scripts/std/objecttranslations.py ${rootArg}" />
         </exec>
     </target>
