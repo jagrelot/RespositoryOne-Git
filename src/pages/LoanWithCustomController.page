@@ -1,0 +1,39 @@
+<apex:page showHeader="true" controller="LoanCustomController" tabStyle="Loan__c">
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Loan Detail" columns="2" > 
+          <apex:outputLabel value="Loan Number" style="font-weight: bold" />
+          <apex:outputText value="{!loanName}"/> 
+          <apex:outputLabel value="Amount" style="font-weight: bold" />
+          <apex:outputText value="{!amount}"/>
+          <apex:outputLabel value="Name" style="font-weight: bold" /> 
+          <apex:outputText value="{!name}"/>
+          <apex:outputLabel value="Underwriter" style="font-weight: bold"/> 
+          <apex:outputText value="{!underwriter}"/>
+          <apex:outputLabel value="Approved" style="font-weight: bold" rendered="{!$ObjectType.Loan__c.fields.Approved__c.Accessible}" />      
+          <apex:outputText value="{!approved}" rendered="{!$ObjectType.Loan__c.fields.Approved__c.Accessible}"/> 
+          
+          <!---
+              Indirect reference in Controller
+              {!ApprovedIndirectRef} -->
+         
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Underwriter Information" columns="1">
+          <apex:outputLabel value="Risk Level" style="font-weight: bold"/>
+          <apex:outputText value="{!risklevel}"/>
+        </apex:pageBlockSection>
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!LoansList}" var="loan">
+                <apex:column value="{!loan.name}"/>
+                <column value="{!loan.name}"/>
+                  <apex:column value="{!loan.Borrower_First_Name__c}"/>
+                <column value="{!loan.Borrower_First_Name__c}"/>
+                 <apex:column value="{!loan.Borrower_Last_Name__c}"/>
+                <column value="{!loan.Borrower_Last_Name__c}"/>                
+                 <apex:column value="{!loan.Amount__c}"/>
+                <column value="{!loan.Amount__c}"/>            
+                 <apex:column value="{!loan.Risk_Level__c }"/>
+                <column value="{!loan.Risk_Level__c }"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:pageBlock>
+</apex:page>

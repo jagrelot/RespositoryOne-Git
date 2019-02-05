@@ -1,0 +1,33 @@
+<apex:page showHeader="true" standardController="Loan__c">
+    <apex:pageBlock >
+        <apex:form >
+        
+        <!--Using Custom Permission to conditially render the share button -->
+        
+        <apex:commandButton value="Share" action="{!URLFOR($Action.Loan__c.Share, Loan__c.id)}" rendered="{!IF(NOT($Permission.Underwriter),true,false)}"/>
+        
+        <!------------------------------------------------------------------->
+        
+        </apex:form>
+        <apex:pageBlockSection title="Loan Detail" columns="2" >
+                <apex:outputField value="{!Loan__c.Name}"/>
+                <apex:outputField value="{!Loan__c.Amount__c}"/>
+                <apex:outputField value="{!Loan__c.Borrower_First_Name__c}"/>
+                <apex:outputField value="{!Loan__c.Underwriter__c}"/>
+                <apex:outputField value="{!Loan__c.Borrower_Last_Name__c}"/>
+                
+                
+                <!--Using the Standard Controller respects FLS for the User -->
+                
+                <apex:outputField value="{!Loan__c.Approved__c}"/> 
+                
+                <!-- <apex:outputText value="{!Loan__c.Approved__c}"/> Does not respect FLS. There is no binding to the field -->
+                
+                <!------------------------------------------------------------>
+                
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Underwriter Information" columns="2">
+                <apex:outputField value="{!Loan__c.Risk_Level__c}"/>     
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

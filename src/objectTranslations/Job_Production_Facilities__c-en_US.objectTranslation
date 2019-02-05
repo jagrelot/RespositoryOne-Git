@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Production Facility</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Production Facilities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Job --></label>
+        <name>Job__c</name>
+        <relationshipLabel><!-- Job Production Facilities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Production Facility --></label>
+        <name>Production_Facility__c</name>
+        <relationshipLabel><!-- Job Production Facilities --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

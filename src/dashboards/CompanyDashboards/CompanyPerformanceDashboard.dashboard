@@ -21,6 +21,7 @@
             <indicatorMiddleColor>#FFCC66</indicatorMiddleColor>
             <report>unfiled$public/SampleReportClosedSales</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Closed Sales To Date</title>

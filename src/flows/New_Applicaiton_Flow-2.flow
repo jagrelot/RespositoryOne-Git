@@ -46,6 +46,8 @@
             <fieldText>{!varAcct}</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
     </screens>
     <startElementReference>New_Application</startElementReference>
     <variables>

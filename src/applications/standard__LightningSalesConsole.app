@@ -3,72 +3,88 @@
     <formFactors>Large</formFactors>
     <label>Sales Console</label>
     <navType>Console</navType>
-    <tab>standard-home</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Campaign</tab>
-    <tab>standard-Task</tab>
-    <tab>standard-Event</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-Feed</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-File</tab>
-    <tab>Application__c</tab>
-    <tab>Form__c</tab>
-    <tab>FormAssignment__c</tab>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>Application__c</tabs>
+    <tabs>Form__c</tabs>
+    <tabs>FormAssignment__c</tabs>
+    <tabs>Job__c</tabs>
+    <tabs>Job_Production_Facilities__c</tabs>
+    <tabs>Production_Facility__c</tabs>
+    <tabs>Loan__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
-    <workspaceMappings>
-        <mapping>
+    <workspaceConfig>
+        <mappings>
             <tab>Application__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>FormAssignment__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>Form__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
+            <tab>Job_Production_Facilities__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Job__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Loan__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Production_Facility__c</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Account</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Campaign</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-CollaborationGroup</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Contact</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Dashboard</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Event</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Feed</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-File</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Lead</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Opportunity</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Task</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-home</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-report</tab>
-        </mapping>
-    </workspaceMappings>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>

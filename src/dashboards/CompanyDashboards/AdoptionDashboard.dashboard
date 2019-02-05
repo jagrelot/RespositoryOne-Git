@@ -17,6 +17,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>unfiled$public/SampleReportUsersLoggedIn</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Last 7 Days</title>
@@ -30,6 +31,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Total # of Active Users</metricLabel>
             <report>unfiled$public/SampleReportActiveUsers</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>

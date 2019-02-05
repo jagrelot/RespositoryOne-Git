@@ -3,45 +3,61 @@
     <formFactors>Large</formFactors>
     <label>Service Console</label>
     <navType>Console</navType>
-    <setupExperience>ServiceSetup</setupExperience>
-    <tab>standard-Case</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-home</tab>
-    <tab>Application__c</tab>
-    <tab>Form__c</tab>
-    <tab>FormAssignment__c</tab>
+    <setupExperience>service</setupExperience>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-home</tabs>
+    <tabs>Application__c</tabs>
+    <tabs>Form__c</tabs>
+    <tabs>FormAssignment__c</tabs>
+    <tabs>Job__c</tabs>
+    <tabs>Job_Production_Facilities__c</tabs>
+    <tabs>Production_Facility__c</tabs>
+    <tabs>Loan__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
-    <workspaceMappings>
-        <mapping>
+    <workspaceConfig>
+        <mappings>
             <tab>Application__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>FormAssignment__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>Form__c</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
+            <tab>Job_Production_Facilities__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Job__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Loan__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Production_Facility__c</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Account</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Case</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Contact</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-Dashboard</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-home</tab>
-        </mapping>
-        <mapping>
+        </mappings>
+        <mappings>
             <tab>standard-report</tab>
-        </mapping>
-    </workspaceMappings>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>

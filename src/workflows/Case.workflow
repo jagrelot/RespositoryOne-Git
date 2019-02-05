@@ -11,6 +11,15 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>Test</fullName>
+        <field>Origin</field>
+        <literalValue>Email</literalValue>
+        <name>Test</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
     <rules>
         <fullName>Question Email Alert</fullName>
         <actions>
@@ -23,6 +32,20 @@
             <operation>equals</operation>
             <value>Question</value>
         </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test</fullName>
+        <actions>
+            <name>Email_Alert_for_Case_Question</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Test</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>true</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>

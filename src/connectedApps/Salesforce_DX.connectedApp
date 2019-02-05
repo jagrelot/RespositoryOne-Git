@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jagrelot@acumensolutions.com</contactEmail>
+    <label>Salesforce DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDtjCCAp4CCQCaN9yaMogshjANBgkqhkiG9w0BAQsFADCBnDELMAkGA1UEBhMCVVMxDTALBgNVBAgMBE9oaW8xEjAQBgNVBAcMCUNsZXZlbGFuZDEeMBwGA1UECgwVQWN1bWVuIFNvbHV0aW9ucyBJbmMuMQ8wDQYDVQQLDAZEZXZPcHMxDDAKBgNVBAMMA0VDMjErMCkGCSqGSIb3DQEJARYcamFncmVsb3RAYWN1bWVuc29sdXRpb25zLmNvbTAeFw0xODExMTIxODIyMTJaFw0xOTExMTIxODIyMTJaMIGcMQswCQYDVQQGEwJVUzENMAsGA1UECAwET2hpbzESMBAGA1UEBwwJQ2xldmVsYW5kMR4wHAYDVQQKDBVBY3VtZW4gU29sdXRpb25zIEluYy4xDzANBgNVBAsMBkRldk9wczEMMAoGA1UEAwwDRUMyMSswKQYJKoZIhvcNAQkBFhxqYWdyZWxvdEBhY3VtZW5zb2x1dGlvbnMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApaa0DUWXEmZw8zOo5W1yDx1GJ5BwMn0vhLZiEUBXuvB+f40H2okdIZT+E8mkoyZDCdYRDalZrCKAKxIjdXkMvTOHgrPY0hj3wzWgcHtuJVWNNtaxwrqc4FSjDgcUDl4htG22hXP4L4v19sItBU8urxHFPK6YMevYDqi+l61Q2cCebBPG8SUAdhOniFhHKq2sH+Y8ocuRmMpeugWENFcrnIaOIEaXmKCo7hxSO6ac1foURJPdr0Ruooa2Yjg3qQ10t3Ek/FjDKmdKMHrvF8hHepTji/YMCH434f/RXdpf5HoI6lYhvlillMyjBfqwZr0+xYHPhr8UNvkPpa9cWlmAlQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBGRcBlplVO8gSWi2GB7hKnm3JWWRokKGBGp3HUitMvLxbiFTTCPoexn8F1lqEBAE4ryTvIcxxsRLcGUmVk267JdyxEvvC0L8ZqYpaMHSysayqHYVVg/MxJM/VELTcXKLYa6NqZPDVmBNnOakK6+e2kz5AXxC0IVAKMvJB5xcnaUx9UPG4qli+SoTdXBRh8wpP9SBmd4Zbo2VTB3tusyVDtDkD2jgBjwNWJBR3GlmcI7K8hpMiTnxmQS7cs4JsYdsKU3KpQ33pY9N70LBgh/ziyxQcQKG0OevfUYzCJAL5K1iZrFH9s58HmdlCV1sQuudcnouHV16lxh+qZnD9dXlPf</certificate>
+        <consumerKey>3MVG9zlTNB8o8BA14e8pX5zZ8PpCaW9Fs.rS6.AbSUi4H0BKxmpBILQxIQa4URVaKj7liTaUUWhOJc5mgDBdY</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

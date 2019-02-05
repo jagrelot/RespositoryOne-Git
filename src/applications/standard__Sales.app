@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
-    <tab>standard-Chatter</tab>
-    <tab>standard-UserProfile</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-File</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-Product2</tab>
-    <tab>standard-Forecasting3</tab>
-    <tab>Application__c</tab>
-    <tab>Form__c</tab>
-    <tab>FormAssignment__c</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Application__c</tabs>
+    <tabs>Form__c</tabs>
+    <tabs>FormAssignment__c</tabs>
+    <tabs>Job__c</tabs>
+    <tabs>Job_Production_Facilities__c</tabs>
+    <tabs>Production_Facility__c</tabs>
+    <tabs>Loan__c</tabs>
     <uiType>Aloha</uiType>
 </CustomApplication>

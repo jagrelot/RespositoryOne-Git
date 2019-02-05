@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hold</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Holds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Call Up Date --></label>
+        <name>CallUpDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Holds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hold Type --></label>
+        <name>HoldType__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting AOR Contact</masterLabel>
+            <translation><!-- Awaiting AOR Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Related File</masterLabel>
+            <translation><!-- Awaiting Related File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External File Request</masterLabel>
+            <translation><!-- External File Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOIA</masterLabel>
+            <translation><!-- FOIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G-28</masterLabel>
+            <translation><!-- G-28 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Updated --></label>
+        <name>Updated__c</name>
+    </fields>
+    <layouts>
+        <layout>Hold Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- please do not edit --></errorMessage>
+        <name>Edit_Hold</name>
+    </validationRules>
+</CustomObjectTranslation>

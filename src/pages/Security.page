@@ -1,0 +1,8 @@
+<apex:page controller="SOQLController" >
+    <apex:form >
+        <apex:outputText value="Enter Name"></apex:outputText>
+        <apex:inputText value="{!name}"/>
+        <apex:commandButton value="Query" action="{!query}"/>
+        <apex:outputText value="{!queryResult}"></apex:outputText>
+    </apex:form>
+</apex:page>

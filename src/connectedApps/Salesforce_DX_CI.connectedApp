@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jagrelot@acumensolutions.com</contactEmail>
+    <label>Salesforce DX  CI</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <consumerKey>3MVG9zlTNB8o8BA14e8pX5zZ8PvkPqBvAuIwnT5rnxQ61H55zE1mexKO3IqTmTh23fk9wb8hetbJbTBqupV5L</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>
