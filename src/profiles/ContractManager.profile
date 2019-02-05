@@ -14,10 +14,7 @@
         <application>standard__Content</application>
         <default>false</default>
         <visible>true</visible>
-    </applicationVisibilities><applicationVisibilities>
-        <application></application>
-        <default>false</default>
-        <visible>true</visible>
+    
     </applicationVisibilities><applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
