@@ -247,7 +247,7 @@ Except for the limited rights to use and make copies of the Software as provided
         <for param = "theFile" >
             <path>
                 <fileset dir ="${root}/src" id = "modFileSet">
-                    <modified update="true"/>
+                    <modified update="${modified}"/>
                 </fileset>
             </path>
             <sequential>
@@ -287,7 +287,7 @@ Except for the limited rights to use and make copies of the Software as provided
             </sequential>
         </for>
         <delete file = "${root}/deploy/package.xml"/>
-        <antcall target="std.deleteActiveFlows"/>
+         <!-- <antcall target="std.deleteActiveFlows"/>/ -->
         <antcall target="std.buildPackageDir"/> 
     </target>
 

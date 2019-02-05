@@ -1,3 +1,4 @@
+# coding=utf-8
 #Copyright © 2018 Acumen Solutions, Inc. The Thorax Salesforce Metadata Utility was
 #created by Acumen Solutions. Except for the limited rights to use and make copies
 #of the Software as provided in a License Agreement, all rights are reserved.
