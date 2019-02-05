@@ -60,7 +60,7 @@ Except for the limited rights to use and make copies of the Software as provided
 	</target>
 
     <target name="buildPackageDir">
-        <exec executable="python" failonerror="true">
+        <exec executable="python3" failonerror="true">
             <arg line="scripts/std/packagedir.py -i ${rootArg}/deploy -v ${sf.apiVersion}" />
         </exec>
     </target>
