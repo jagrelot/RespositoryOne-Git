@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>CampaignMember</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Assignment Manager</members>
+    <name>Profile</name>
+  </types>
+  <types>
+    <members>Opportunity</members>
+    <name/>
+  </types>
+  <version>41</version>
+</Package>

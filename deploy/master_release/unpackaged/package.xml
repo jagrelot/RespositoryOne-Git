@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>WarrantySummary</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>Case-Case Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>Case</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Assignment Manager_1</members>
+    <members>Chatter Only User</members>
+    <members>Company Communities User</members>
+    <members>ContractManager</members>
+    <members>Customer Community Login User</members>
+    <members>Customer Community Plus Login User</members>
+    <members>Customer Community Plus User</members>
+    <members>Customer Community User</members>
+    <members>High Volume Customer Portal User</members>
+    <members>MarketingProfile</members>
+    <members>Partner Community Login User</members>
+    <members>Partner Community User</members>
+    <members>ReadOnly</members>
+    <members>SolutionManager</members>
+    <members>Standard</members>
+    <name>Profile</name>
+  </types>
+  <version>41</version>
+</Package>
