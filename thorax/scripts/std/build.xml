@@ -299,8 +299,8 @@ Except for the limited rights to use and make copies of the Software as provided
             checkOnly="${sf.checkonly}" 
             testLevel="${sf.testLevel}"
             pollWaitMillis="${sf.pollWaitMillis}"
-            apiVersion="{sf.apiVersion}"
             maxPoll="${sf.maxPoll}"
+            apiVersion="${sf.apiVersion}"
             deployRoot="${root}/deploy"/>
     </target>
 
