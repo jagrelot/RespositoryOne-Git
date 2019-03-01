@@ -308,19 +308,20 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>ProductPurchaseDate__c</fullName>
+        <fullName>ProductHasExtendedWarranty__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Product Purchase Date</label>
+        <label>Picklist Test</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>ProductPurchaseDate2__c</fullName>
+        <fullName>ProductPurchaseDate__c</fullName>
         <externalId>false</externalId>
-        <label>Product Purchase Date 2</label>
+        <label>Product Purchase Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
