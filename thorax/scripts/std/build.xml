@@ -296,7 +296,7 @@ Except for the limited rights to use and make copies of the Software as provided
             username="${sf.username}" 
             password="${sf.password}" 
             serverurl="${sf.serverurl}"
-            checkonly="${sf.checkonly}" 
+            checkOnly="${sf.checkonly}" 
             testLevel="${sf.testLevel}"
             pollWaitMillis="${sf.pollWaitMillis}"
             maxPoll="${sf.maxPoll}"
