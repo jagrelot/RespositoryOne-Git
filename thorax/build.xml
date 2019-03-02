@@ -27,6 +27,24 @@ Except for the limited rights to use and make copies of the Software as provided
   		</sequential>
  	</for>
 
+  <target name="validate">
+    <property name="sf.allowMissingFiles" value="false" />
+    <property name="sf.ignoreWarnings" value="false" />
+    <property name="sf.runAllTests" value="false" />
+    <property name="sf.deployRoot" value="./deploy" />
+    <sf:deploy username="${sf.username}" 
+         password="${sf.password}" 
+         serverurl="${sf.serverUrl}" 
+         deployRoot="${sf.deployRoot}"
+         pollWaitMillis="10000"
+         maxPoll="500"
+         allowMissingFiles="${sf.allowMissingFiles}"
+         ignoreWarnings="${sf.ignoreWarnings}"
+         testLevel="${sf.testLevel}"
+         checkOnly="true"
+       />
+  </target>
+
  	<target name="main">
  		<antcall target="${script}"/>		
  	</target>            
