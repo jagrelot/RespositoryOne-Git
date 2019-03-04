@@ -15,7 +15,7 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><applicationVisibilities>
-        <application>standard__DataAssessment</application>
+        <application></application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><applicationVisibilities>
