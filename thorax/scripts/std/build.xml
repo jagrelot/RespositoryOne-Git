@@ -247,7 +247,7 @@ Except for the limited rights to use and make copies of the Software as provided
         <for param = "theFile" >
             <path>
                 <fileset dir ="${root}/src" id = "modFileSet">
-                    <modified/>
+                    
                 </fileset>
             </path>
             <sequential>
